@@ -1,0 +1,111 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,8.0.7*%
+%TF.CreationDate,2025-02-26T20:45:26+01:00*%
+%TF.ProjectId,zegarek,7a656761-7265-46b2-9e6b-696361645f70,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Copper,L2,Bot*%
+%TF.FilePolarity,Positive*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 8.0.7) date 2025-02-26 20:45:26*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+G04 Aperture macros list*
+%AMRoundRect*
+0 Rectangle with rounded corners*
+0 $1 Rounding radius*
+0 $2 $3 $4 $5 $6 $7 $8 $9 X,Y pos of 4 corners*
+0 Add a 4 corners polygon primitive as box body*
+4,1,4,$2,$3,$4,$5,$6,$7,$8,$9,$2,$3,0*
+0 Add four circle primitives for the rounded corners*
+1,1,$1+$1,$2,$3*
+1,1,$1+$1,$4,$5*
+1,1,$1+$1,$6,$7*
+1,1,$1+$1,$8,$9*
+0 Add four rect primitives between the rounded corners*
+20,1,$1+$1,$2,$3,$4,$5,0*
+20,1,$1+$1,$4,$5,$6,$7,0*
+20,1,$1+$1,$6,$7,$8,$9,0*
+20,1,$1+$1,$8,$9,$2,$3,0*%
+G04 Aperture macros list end*
+%TA.AperFunction,ComponentPad*%
+%ADD10R,2.000000X1.905000*%
+%TD*%
+%TA.AperFunction,ComponentPad*%
+%ADD11O,2.000000X1.905000*%
+%TD*%
+%TA.AperFunction,ComponentPad*%
+%ADD12RoundRect,0.250000X1.550000X-0.650000X1.550000X0.650000X-1.550000X0.650000X-1.550000X-0.650000X0*%
+%TD*%
+%TA.AperFunction,ComponentPad*%
+%ADD13O,3.600000X1.800000*%
+%TD*%
+%TA.AperFunction,ComponentPad*%
+%ADD14R,1.700000X1.700000*%
+%TD*%
+%TA.AperFunction,ComponentPad*%
+%ADD15O,1.700000X1.700000*%
+%TD*%
+%TA.AperFunction,ComponentPad*%
+%ADD16R,3.200000X3.200000*%
+%TD*%
+%TA.AperFunction,ComponentPad*%
+%ADD17O,3.200000X3.200000*%
+%TD*%
+%TA.AperFunction,ComponentPad*%
+%ADD18R,2.400000X2.400000*%
+%TD*%
+%TA.AperFunction,ComponentPad*%
+%ADD19O,2.400000X2.400000*%
+%TD*%
+G04 APERTURE END LIST*
+D10*
+%TO.P,Q1,1,G*%
+%TO.N,Net-(Q1-G)*%
+X149500000Y-104460000D03*
+D11*
+%TO.P,Q1,2,D*%
+%TO.N,Net-(D1-A)*%
+X149500000Y-107000000D03*
+%TO.P,Q1,3,S*%
+%TO.N,GND*%
+X149500000Y-109540000D03*
+%TD*%
+D12*
+%TO.P,J2,1,Pin_1*%
+%TO.N,GND*%
+X185742500Y-102022500D03*
+D13*
+%TO.P,J2,2,Pin_2*%
+%TO.N,+VDC*%
+X185742500Y-96942500D03*
+%TD*%
+D14*
+%TO.P,J1,1,Pin_1*%
+%TO.N,GND*%
+X126975000Y-112040000D03*
+D15*
+%TO.P,J1,2,Pin_2*%
+%TO.N,+12V*%
+X126975000Y-109500000D03*
+%TD*%
+D16*
+%TO.P,D1,1,K*%
+%TO.N,+VDC*%
+X158120000Y-87500000D03*
+D17*
+%TO.P,D1,2,A*%
+%TO.N,Net-(D1-A)*%
+X142880000Y-87500000D03*
+%TD*%
+D18*
+%TO.P,C3,1*%
+%TO.N,+VDC*%
+X167000000Y-84000000D03*
+D19*
+%TO.P,C3,2*%
+%TO.N,GND*%
+X167000000Y-114000000D03*
+%TD*%
+M02*
