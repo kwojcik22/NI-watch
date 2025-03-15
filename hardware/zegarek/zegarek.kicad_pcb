@@ -92,7 +92,7 @@
 	(footprint "Connector:Banana_Jack_2Pin"
 		(layer "F.Cu")
 		(uuid "19e7f4d9-7d53-4fb7-9776-a60aaed3ad9e")
-		(at 108 114.97 90)
+		(at 108.5 115.5 90)
 		(descr "Dual banana socket, footprint - 2 x 6mm drills")
 		(tags "banana socket")
 		(property "Reference" "J1"
