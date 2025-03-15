@@ -3566,7 +3566,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Phoenix_MC_HighVoltage:PhoenixContact_MCV_1,5_2-G-5.08_1x02_P5.08mm_Vertical"
+		(property "Footprint" "Connector:Banana_Jack_2Pin"
 			(at 265.43 35.56 0)
 			(effects
 				(font
@@ -3851,7 +3851,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Connector:Banana_Jack_2Pin"
 			(at 30.48 36.83 0)
 			(effects
 				(font
