@@ -92,7 +92,7 @@
 	(footprint "Connector:Banana_Jack_2Pin"
 		(layer "F.Cu")
 		(uuid "19e7f4d9-7d53-4fb7-9776-a60aaed3ad9e")
-		(at 109 115 90)
+		(at 108 114.97 90)
 		(descr "Dual banana socket, footprint - 2 x 6mm drills")
 		(tags "banana socket")
 		(property "Reference" "J1"
@@ -1911,7 +1911,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R3"
-			(at 3 0 360)
+			(at 3 0 0)
 			(layer "F.SilkS")
 			(uuid "6733c669-4d05-400b-84ea-07651fdfff46")
 			(effects
@@ -3048,7 +3048,7 @@
 			)
 		)
 		(property "Value" "180"
-			(at 0 1.65 360)
+			(at 0 1.65 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a8400569-173d-4b21-8ddb-dd3ec04f391c")
@@ -3204,7 +3204,7 @@
 			(uuid "20efbd6a-5e3b-44c7-a78b-691a4fd1f6b1")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "e9bb534e-95ff-4013-b7c0-e1569a4f7f7b")
 			(effects
@@ -4001,7 +4001,7 @@
 			)
 		)
 		(property "Value" "0R22"
-			(at 0 1.82 360)
+			(at 0 1.82 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7a0e7943-0652-4447-862f-d0648883b7ff")
@@ -4157,7 +4157,7 @@
 			(uuid "89f2e735-a638-4d00-9985-5f155ae07c64")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "c6b8d886-e177-4c26-8b55-252c9c0f9e52")
 			(effects
