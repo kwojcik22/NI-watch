@@ -3419,7 +3419,7 @@
 				)
 			)
 		)
-		(property "Value" "UF5400"
+		(property "Value" "UF4007"
 			(at 179.07 31.75 0)
 			(effects
 				(font
