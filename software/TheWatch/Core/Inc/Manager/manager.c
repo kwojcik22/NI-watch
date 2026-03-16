@@ -11,8 +11,8 @@
 #include "gpio.h"
 
 extern button_t Button_BLUE;
-extern uint8_t hh = 0;
-extern uint8_t mm = 0;
+ uint8_t hh = 0;
+ uint8_t mm = 0;
 void MainMachine(void){
 
 }
@@ -22,7 +22,7 @@ uint8_t SetTimeMachine(menu_flags_t *flags){
 	if(flags->set_time_h){
 		Button_Pressed(&Button_BLUE);
 		if(Button_BLUE.flags.short_press){ // if enter
-			hh = hours;
+			hh = 1U;
 		}
 	}
 }

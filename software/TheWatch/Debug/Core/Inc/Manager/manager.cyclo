@@ -1,4 +1,4 @@
-../Core/Inc/Manager/manager.c:15:6:MainMachine	1
-../Core/Inc/Manager/manager.c:19:9:SetTimeMachine	2
-../Core/Inc/Manager/manager.c:25:9:SetAlarmMachine	1
-../Core/Inc/Manager/manager.c:29:9:delay_nonblocking	2
+../Core/Inc/Manager/manager.c:16:6:MainMachine	1
+../Core/Inc/Manager/manager.c:20:9:SetTimeMachine	3
+../Core/Inc/Manager/manager.c:30:9:SetAlarmMachine	1
+../Core/Inc/Manager/manager.c:34:9:delay_nonblocking	2

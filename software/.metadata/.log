@@ -1,0 +1,19 @@
+!SESSION 2026-03-16 21:31:35.121 -----------------------------------------------
+eclipse.buildId=Version 1.16.1
+java.version=17.0.11
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pl_PL
+Framework arguments:  C:\Users\Katarzyna\Documents\PROJECTS\NI-watch\software\TheWatch\.project
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 C:\Users\Katarzyna\Documents\PROJECTS\NI-watch\software\TheWatch\.project
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2026-03-16 21:32:10.256
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2026-03-16 21:32:10.274
+!MESSAGE Log4j2 initialized with config file C:\Users\Katarzyna\Documents\PROJECTS\NI-watch\software\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2026-03-16 21:32:15.939
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-03-16 21:32:28.582
+!MESSAGE Indexed 'TheWatch' (33 sources, 71 headers) in 7.89 sec: 8,706 declarations; 43,132 references; 39 unresolved inclusions; 1,111 syntax errors; 7,381 unresolved names (12%)
