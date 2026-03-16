@@ -1,0 +1,4 @@
+../Core/Inc/Manager/manager.c:15:6:MainMachine	8	static
+../Core/Inc/Manager/manager.c:19:9:SetTimeMachine	16	static
+../Core/Inc/Manager/manager.c:25:9:SetAlarmMachine	16	static
+../Core/Inc/Manager/manager.c:29:9:delay_nonblocking	16	static

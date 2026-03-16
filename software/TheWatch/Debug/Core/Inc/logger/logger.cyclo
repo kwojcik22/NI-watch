@@ -1,0 +1,2 @@
+../Core/Inc/logger/logger.c:34:6:log_printf	1
+../Core/Inc/logger/logger.c:59:6:get_time	1

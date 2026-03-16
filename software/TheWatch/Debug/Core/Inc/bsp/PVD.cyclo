@@ -1,0 +1,4 @@
+../Drivers/CMSIS/Include/core_cm0.h:623:22:__NVIC_EnableIRQ	2
+../Core/Inc/bsp/PVD.c:12:6:PVD_Enable	1
+../Core/Inc/bsp/PVD.c:35:9:WasPowerLost	2
+../Core/Inc/bsp/PVD.c:51:6:BackupRtc_Save	1

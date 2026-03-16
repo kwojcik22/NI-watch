@@ -1,0 +1,7 @@
+../Drivers/CMSIS/Include/core_cm0.h:623:22:__NVIC_EnableIRQ	2
+../Core/Inc/bsp/RTC/Time.c:10:6:RTC_ReadTimeBCD	1
+../Core/Inc/bsp/RTC/Time.c:18:6:RTC_SetTimeBCD	2
+../Core/Inc/bsp/RTC/Time.c:34:6:RTC_Stop	1
+../Core/Inc/bsp/RTC/Time.c:45:6:RTC_SetAlarmBCD	1
+../Core/Inc/bsp/RTC/Time.c:65:6:RTC_DisableAlarm	1
+../Core/Inc/bsp/RTC/Time.c:75:6:RTC_EnableAlarmIRQ	1

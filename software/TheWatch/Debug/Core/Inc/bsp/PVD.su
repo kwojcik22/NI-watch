@@ -1,0 +1,4 @@
+../Drivers/CMSIS/Include/core_cm0.h:623:22:__NVIC_EnableIRQ	16	static
+../Core/Inc/bsp/PVD.c:12:6:PVD_Enable	8	static
+../Core/Inc/bsp/PVD.c:35:9:WasPowerLost	16	static
+../Core/Inc/bsp/PVD.c:51:6:BackupRtc_Save	8	static

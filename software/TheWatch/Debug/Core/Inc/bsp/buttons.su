@@ -1,0 +1,4 @@
+../Core/Inc/bsp/buttons.c:15:6:init_Btn	24	static
+../Core/Inc/bsp/buttons.c:26:6:Button_ClearFlags	16	static
+../Core/Inc/bsp/buttons.c:31:6:Button_Read	16	static
+../Core/Inc/bsp/buttons.c:41:9:Button_Pressed	32	static
