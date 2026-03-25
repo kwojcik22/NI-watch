@@ -1,10 +1,10 @@
-21:34:19 **** Incremental Build of configuration Debug for project TheWatch ****
+21:05:17 **** Incremental Build of configuration Debug for project TheWatch ****
 make -j8 all 
 arm-none-eabi-size  TheWatch.elf 
    text	   data	    bss	    dec	    hex	filename
-  20020	    128	   2208	  22356	   5754	TheWatch.elf
+  20296	    128	   2208	  22632	   5868	TheWatch.elf
 Finished building: default.size.stdout
  
 
-21:34:20 Build Finished. 0 errors, 0 warnings. (took 471ms)
+21:05:18 Build Finished. 0 errors, 0 warnings. (took 457ms)
 
