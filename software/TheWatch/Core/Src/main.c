@@ -112,7 +112,15 @@ int main(void)
   while (1)
   {
 	  Button_Pressed(&Button_BLUE);
-	  int a = HAL_GPIO_ReadPin(GPIO_BTNDN_GPIO_Port, GPIO_BTNUP_Pin);
+	  if (HAL_GPIO_ReadPin(GPIOC, GPIO_BTNDN_Pin)){
+		  HAL_GPIO_TogglePin(GPIO_LED0_GPIO_Port, GPIO_LED0_Pin);
+	  }
+	  if (HAL_GPIO_ReadPin(GPIOA, GPIO_BTNUP_Pin)){
+		  HAL_GPIO_TogglePin(GPIO_LED1_GPIO_Port, GPIO_LED1_Pin);
+	  }
+	  if (HAL_GPIO_ReadPin(GPIOB, GPO_BTNOK_Pin)){
+		  HAL_GPIO_TogglePin(GPIO_LED2_GPIO_Port, GPIO_LED2_Pin);
+	  }
 
 	  if(Button_BLUE.flags.long_press){
 		  RTC_SetAlarmBCD(&hrtc, hh, mm+1);
