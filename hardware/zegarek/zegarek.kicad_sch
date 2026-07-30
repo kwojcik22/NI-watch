@@ -1,24 +1,30 @@
 (kicad_sch
-	(version 20231120)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "10.0")
 	(uuid "f4008fb9-ad6b-45c6-9bc0-571e7640a726")
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 194.31 21.59)
-		(size 29.21 13.97)
+		(at 119.126 50.292)
+		(size 33.02 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
-		(uuid "7ab84b86-daac-4da7-88e2-9a4f8795c6aa")
-		(property "Sheetname" "nixie power"
-			(at 194.31 20.8784 0)
+		(uuid "209f222f-184e-41c4-8d66-9f0390d2086f")
+		(property "Sheetname" "MCU"
+			(at 119.126 49.5804 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26,8 +32,10 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "nixie_power.kicad_sch"
-			(at 194.31 36.1446 0)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 119.126 88.9766 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35,35 +43,107 @@
 				(justify left top)
 			)
 		)
-		(pin "+12V" input
-			(at 194.31 25.4 180)
+		(instances
+			(project "zegarek"
+				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 203.454 50.8)
+		(size 38.862 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "3747ac4d-da4e-4490-9c0e-c39823969276")
+		(property "Sheetname" "NIXIE"
+			(at 203.454 50.0884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "NIXIE.kicad_sch"
+			(at 203.454 89.4846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "BCD_BUS" input
+			(at 203.454 69.85 180)
+			(uuid "3d56b0db-e9ba-430f-be32-e814abf9c623")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "b35cf406-920b-4fec-8287-ae718a4d5994")
 		)
-		(pin "GND" input
-			(at 208.28 35.56 270)
+		(instances
+			(project "zegarek"
+				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.146 50.546)
+		(size 25.908 26.416)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "7ab84b86-daac-4da7-88e2-9a4f8795c6aa")
+		(property "Sheetname" "PWR MNG"
+			(at 25.146 49.8344 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify left bottom)
 			)
-			(uuid "70ce0dec-9ff5-4b51-9748-b1e9d3743a94")
 		)
-		(pin "+VDC" input
-			(at 223.52 25.4 0)
+		(property "Sheetfile" "PWR_MNG.kicad_sch"
+			(at 25.146 77.5466 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left top)
 			)
-			(uuid "3d1a82ea-bb82-43c9-9df8-f74975a83960")
 		)
 		(instances
 			(project "zegarek"
@@ -78,4 +158,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
