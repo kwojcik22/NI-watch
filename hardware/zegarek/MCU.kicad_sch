@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "33518ade-fd71-4da8-8b66-7a103ba2e61c")
+	(uuid "db2707a3-95c7-484a-89c7-8156accba1b3")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Connector:TestPoint"
@@ -2129,6 +2129,207 @@
 					(at 0 -3.81 90)
 					(length 2.54)
 					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:LED"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5378,6 +5579,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 71.12) (xy 179.07 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d2cec4c-f6ca-4b44-b986-04236f38d13e")
+	)
+	(wire
+		(pts
 			(xy 109.22 115.57) (xy 102.87 115.57)
 		)
 		(stroke
@@ -5588,6 +5799,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 73.66) (xy 186.69 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ba65914-5051-445f-91f1-ec3356608d1c")
+	)
+	(wire
+		(pts
 			(xy 106.68 101.6) (xy 124.46 101.6)
 		)
 		(stroke
@@ -5788,7 +6009,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 73.66) (xy 241.3 73.66)
+			(xy 252.73 45.72) (xy 250.19 45.72)
 		)
 		(stroke
 			(width 0)
@@ -5838,6 +6059,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 73.66) (xy 231.14 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "796a77ce-0cb4-44ba-bb70-f70468b8332f")
+	)
+	(wire
+		(pts
 			(xy 236.22 154.94) (xy 248.92 154.94)
 		)
 		(stroke
@@ -5878,6 +6109,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 71.12) (xy 231.14 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87efbf53-ca48-4e91-b2ca-5ad99a085f9f")
+	)
+	(wire
+		(pts
 			(xy 242.57 120.65) (xy 251.46 120.65)
 		)
 		(stroke
@@ -5898,6 +6139,16 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 76.2) (xy 219.71 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91c5a297-dde5-4a74-a4d3-8ca32984284f")
+	)
+	(wire
+		(pts
 			(xy 66.04 34.29) (xy 66.04 33.02)
 		)
 		(stroke
@@ -5905,6 +6156,16 @@
 			(type default)
 		)
 		(uuid "932dbc52-e24d-44f0-8c50-4a9abb46d6f1")
+	)
+	(wire
+		(pts
+			(xy 194.31 73.66) (xy 212.09 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93865472-7b26-4257-9515-7173552705e5")
 	)
 	(wire
 		(pts
@@ -5938,7 +6199,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 78.74) (xy 243.84 78.74)
+			(xy 241.3 50.8) (xy 252.73 50.8)
 		)
 		(stroke
 			(width 0)
@@ -5965,6 +6226,16 @@
 			(type default)
 		)
 		(uuid "acd59eed-fd2f-4a72-9173-d1c318acd119")
+	)
+	(wire
+		(pts
+			(xy 186.69 71.12) (xy 204.47 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad3f8f3c-1de9-4ae1-b269-6b433262858a")
 	)
 	(wire
 		(pts
@@ -6098,7 +6369,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 76.2) (xy 243.84 76.2)
+			(xy 241.3 48.26) (xy 252.73 48.26)
 		)
 		(stroke
 			(width 0)
@@ -6128,7 +6399,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 83.82) (xy 241.3 81.28)
+			(xy 250.19 55.88) (xy 250.19 53.34)
 		)
 		(stroke
 			(width 0)
@@ -6168,7 +6439,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 73.66) (xy 241.3 71.12)
+			(xy 250.19 45.72) (xy 250.19 43.18)
 		)
 		(stroke
 			(width 0)
@@ -6238,7 +6509,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 81.28) (xy 243.84 81.28)
+			(xy 250.19 53.34) (xy 252.73 53.34)
 		)
 		(stroke
 			(width 0)
@@ -6275,6 +6546,26 @@
 			(type default)
 		)
 		(uuid "f6980bd5-0ce9-4f86-96fb-e300d985baa7")
+	)
+	(wire
+		(pts
+			(xy 224.79 76.2) (xy 231.14 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8c3046c-10ad-44a0-b422-509b5e0c95f4")
+	)
+	(wire
+		(pts
+			(xy 160.02 76.2) (xy 194.31 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb58d562-dedd-41c7-b4ca-cb4f1dc32113")
 	)
 	(label "MH_A"
 		(at 162.56 127 0)
@@ -6448,7 +6739,7 @@
 		(uuid "a0b695f8-05da-4453-978e-b1c4db781314")
 	)
 	(label "TMS"
-		(at 232.41 78.74 0)
+		(at 241.3 50.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6540,7 +6831,7 @@
 		(uuid "e8e02bb2-3202-4c2c-87aa-9ddc743a00df")
 	)
 	(label "TCK"
-		(at 232.41 76.2 0)
+		(at 241.3 48.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6691,7 +6982,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_Amphenol_12401948E412A"
 			(at 264.16 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -6805,7 +7096,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 210.82 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -6962,7 +7253,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 50.8 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -7233,7 +7524,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "fa70f03b-e633-49e8-9b10-535f9cce9877")
+			(uuid "fa70f03b-e633-49e8-9b10-535f9cce9878")
 		)
 		(instances
 			(project "zegarek"
@@ -7278,7 +7569,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 36.83 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -7357,7 +7648,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 119.38 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -7400,6 +7691,85 @@
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
 					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 207.01 71.12 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "25f83db7-6b92-4f1c-9078-5c4f1ac501fe")
+		(property "Reference" "R40"
+			(at 206.9465 66.802 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "220"
+			(at 206.9465 69.342 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+			(at 207.01 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 207.01 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "721928d2-ac01-4a82-9b01-17bbc6fc2f93")
+		)
+		(pin "2"
+			(uuid "07a00356-45d5-40e1-a182-f6e458bda35f")
+		)
+		(instances
+			(project "zegarek"
+				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
+					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -7516,7 +7886,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 55.88 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -7709,7 +8079,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "fa70f03b-e633-49e8-9b10-535f9cce9877")
+			(uuid "fa70f03b-e633-49e8-9b10-535f9cce9879")
 		)
 		(instances
 			(project "zegarek"
@@ -7754,7 +8124,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 76.2 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -7803,6 +8173,96 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 190.5 73.66 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3c28a830-4a1e-4b45-a92f-a74564a4c5e3")
+		(property "Reference" "D3"
+			(at 192.024 66.802 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 192.024 69.342 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 190.5 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 190.5 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 190.5 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f58b88db-d822-44cd-935e-a9f29fb32431")
+		)
+		(pin "2"
+			(uuid "95c84f57-b177-47db-92e0-ee7f25986aca")
+		)
+		(instances
+			(project "zegarek"
+				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 193.04 30.48 0)
 		(unit 1)
@@ -7836,7 +8296,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 194.0052 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -7918,7 +8378,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 46.99 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -7952,15 +8412,105 @@
 			)
 		)
 		(pin "1"
-			(uuid "a41b76cd-2c3d-421d-9e76-c372b35495f9")
+			(uuid "a41b76cd-2c3d-421d-9e76-c372b35495fa")
 		)
 		(pin "2"
-			(uuid "40a1f778-e2ba-4b8a-ad6f-68182b659eb3")
+			(uuid "40a1f778-e2ba-4b8a-ad6f-68182b659eb4")
 		)
 		(instances
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
 					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 198.12 76.2 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "444248c7-c824-4eba-ba7e-35e9287ba56d")
+		(property "Reference" "D4"
+			(at 199.644 69.342 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 199.644 71.882 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 198.12 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 198.12 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 198.12 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f58b88db-d822-44cd-935e-a9f29fb32432")
+		)
+		(pin "2"
+			(uuid "95c84f57-b177-47db-92e0-ee7f25986acb")
+		)
+		(instances
+			(project "zegarek"
+				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -8078,7 +8628,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 181.3052 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -8112,10 +8662,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "9197cf1a-1184-4f71-b7e4-d404d09961af")
+			(uuid "9197cf1a-1184-4f71-b7e4-d404d09961b0")
 		)
 		(pin "1"
-			(uuid "3f61084a-968b-4d99-bc44-a137396fc1fa")
+			(uuid "3f61084a-968b-4d99-bc44-a137396fc1fb")
 		)
 		(instances
 			(project "zegarek"
@@ -8206,7 +8756,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 241.3 83.82 0)
+		(at 250.19 55.88 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8217,7 +8767,7 @@
 		(fields_autoplaced yes)
 		(uuid "52842753-7170-4f74-8066-4aad89ad2fb2")
 		(property "Reference" "#PWR061"
-			(at 241.3 90.17 0)
+			(at 250.19 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8228,7 +8778,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 241.3 88.9 0)
+			(at 250.19 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8238,7 +8788,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 241.3 83.82 0)
+			(at 250.19 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8249,7 +8799,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 241.3 83.82 0)
+			(at 250.19 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8260,7 +8810,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 241.3 83.82 0)
+			(at 250.19 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8316,7 +8866,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 102.87 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -8396,7 +8946,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 50.8 29.718 90)
 			(hide yes)
 			(show_name no)
@@ -8511,7 +9061,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "dcfde63d-80f1-4a48-85da-67bc2e4d4f67")
+			(uuid "dcfde63d-80f1-4a48-85da-67bc2e4d4f68")
 		)
 		(instances
 			(project "zegarek"
@@ -8589,7 +9139,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "fa70f03b-e633-49e8-9b10-535f9cce9877")
+			(uuid "fa70f03b-e633-49e8-9b10-535f9cce987a")
 		)
 		(instances
 			(project "zegarek"
@@ -8667,7 +9217,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "1256b441-835e-40df-9249-64105c5a629f")
+			(uuid "1256b441-835e-40df-9249-64105c5a62a0")
 		)
 		(instances
 			(project "zegarek"
@@ -8758,7 +9308,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 241.3 71.12 0)
+		(at 250.19 43.18 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8769,7 +9319,7 @@
 		(fields_autoplaced yes)
 		(uuid "6ac2dc61-ccae-4bf0-bf42-67b42d5a5806")
 		(property "Reference" "#PWR059"
-			(at 241.3 74.93 0)
+			(at 250.19 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8780,7 +9330,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 241.3 66.04 0)
+			(at 250.19 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8790,7 +9340,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 241.3 71.12 0)
+			(at 250.19 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8801,7 +9351,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 241.3 71.12 0)
+			(at 250.19 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8812,7 +9362,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 241.3 71.12 0)
+			(at 250.19 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8829,6 +9379,85 @@
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
 					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 231.14 73.66 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6ac34ea4-f8f6-4e43-8518-57e949e8322d")
+		(property "Reference" "#PWR082"
+			(at 237.49 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 234.95 73.6599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 231.14 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 231.14 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f4e2024a-5ee9-4e5d-9805-be8ba7117682")
+		)
+		(instances
+			(project "zegarek"
+				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
+					(reference "#PWR082")
 					(unit 1)
 				)
 			)
@@ -9150,7 +9779,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 168.6052 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -9184,10 +9813,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "9197cf1a-1184-4f71-b7e4-d404d09961af")
+			(uuid "9197cf1a-1184-4f71-b7e4-d404d09961b1")
 		)
 		(pin "1"
-			(uuid "3f61084a-968b-4d99-bc44-a137396fc1fa")
+			(uuid "3f61084a-968b-4d99-bc44-a137396fc1fc")
 		)
 		(instances
 			(project "zegarek"
@@ -9230,7 +9859,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
 			(at 49.53 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -9273,6 +9902,96 @@
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
 					(reference "JP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 182.88 71.12 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7fcc28ab-a05c-4557-a525-419c4cb5c212")
+		(property "Reference" "D2"
+			(at 184.404 64.262 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 184.404 66.802 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 182.88 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 182.88 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 182.88 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f58b88db-d822-44cd-935e-a9f29fb32433")
+		)
+		(pin "2"
+			(uuid "95c84f57-b177-47db-92e0-ee7f25986acc")
+		)
+		(instances
+			(project "zegarek"
+				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -9659,7 +10378,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 60.96 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -9741,7 +10460,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 254 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -9856,7 +10575,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "f01cbce8-2f19-4d32-9dbe-bead8dbd3876")
+			(uuid "f01cbce8-2f19-4d32-9dbe-bead8dbd3877")
 		)
 		(instances
 			(project "zegarek"
@@ -9934,7 +10653,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "fa70f03b-e633-49e8-9b10-535f9cce9877")
+			(uuid "fa70f03b-e633-49e8-9b10-535f9cce987b")
 		)
 		(instances
 			(project "zegarek"
@@ -10057,7 +10776,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 102.87 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -10091,10 +10810,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "ac4e616f-7926-4f5d-b2f6-0867575cf4b9")
+			(uuid "ac4e616f-7926-4f5d-b2f6-0867575cf4ba")
 		)
 		(pin "2"
-			(uuid "07a610aa-8f7e-43ac-b7ed-a5095c22f2f1")
+			(uuid "07a610aa-8f7e-43ac-b7ed-a5095c22f2f2")
 		)
 		(instances
 			(project "zegarek"
@@ -10172,7 +10891,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "dcfde63d-80f1-4a48-85da-67bc2e4d4f67")
+			(uuid "dcfde63d-80f1-4a48-85da-67bc2e4d4f69")
 		)
 		(instances
 			(project "zegarek"
@@ -10299,7 +11018,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 212.09 127 0)
 			(hide yes)
 			(show_name no)
@@ -10381,7 +11100,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 56.8452 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -10539,7 +11258,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KMR2"
 			(at 44.45 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -10654,7 +11373,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "c5001bf3-fa29-4ded-b58f-5d089172f433")
+			(uuid "c5001bf3-fa29-4ded-b58f-5d089172f434")
 		)
 		(instances
 			(project "zegarek"
@@ -10855,7 +11574,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 206.7052 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -10889,15 +11608,94 @@
 			)
 		)
 		(pin "2"
-			(uuid "9197cf1a-1184-4f71-b7e4-d404d09961af")
+			(uuid "9197cf1a-1184-4f71-b7e4-d404d09961b2")
 		)
 		(pin "1"
-			(uuid "3f61084a-968b-4d99-bc44-a137396fc1fa")
+			(uuid "3f61084a-968b-4d99-bc44-a137396fc1fd")
 		)
 		(instances
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
 					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 214.63 73.66 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a37a5e15-c171-4132-a7ed-002c712520b8")
+		(property "Reference" "R41"
+			(at 214.5665 69.342 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "220"
+			(at 214.5665 71.882 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+			(at 214.63 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 214.63 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "721928d2-ac01-4a82-9b01-17bbc6fc2f94")
+		)
+		(pin "2"
+			(uuid "07a00356-45d5-40e1-a182-f6e458bda360")
+		)
+		(instances
+			(project "zegarek"
+				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
+					(reference "R41")
 					(unit 1)
 				)
 			)
@@ -11048,7 +11846,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "dcfde63d-80f1-4a48-85da-67bc2e4d4f67")
+			(uuid "dcfde63d-80f1-4a48-85da-67bc2e4d4f6a")
 		)
 		(instances
 			(project "zegarek"
@@ -11360,7 +12158,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "1330c4d5-58b3-4ca3-8f14-e8c8f47dc2e1")
+			(uuid "1330c4d5-58b3-4ca3-8f14-e8c8f47dc2e2")
 		)
 		(instances
 			(project "zegarek"
@@ -11405,7 +12203,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Battery:BatteryHolder_MYOUNG_BS-07-A1BJ001_CR2032"
 			(at 124.46 30.226 90)
 			(hide yes)
 			(show_name no)
@@ -11520,7 +12318,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 213.0552 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -11563,6 +12361,85 @@
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
 					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 231.14 76.2 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c8ae21e6-c121-4dd9-b2a3-83b7c1ae959a")
+		(property "Reference" "#PWR083"
+			(at 237.49 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 234.95 76.1999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 231.14 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 231.14 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f4e2024a-5ee9-4e5d-9805-be8ba7117683")
+		)
+		(instances
+			(project "zegarek"
+				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
+					(reference "#PWR083")
 					(unit 1)
 				)
 			)
@@ -11680,7 +12557,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 66.04 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -11762,7 +12639,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 113.9952 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -11805,6 +12682,85 @@
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 231.14 71.12 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "db1695fc-8a8a-413d-b499-f2cfac64aa86")
+		(property "Reference" "#PWR081"
+			(at 237.49 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 234.95 71.1199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 231.14 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 231.14 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f4e2024a-5ee9-4e5d-9805-be8ba7117684")
+		)
+		(instances
+			(project "zegarek"
+				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
@@ -11877,7 +12833,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "cdd2ccb8-f7ec-4406-84f6-be109c1181b6")
+			(uuid "cdd2ccb8-f7ec-4406-84f6-be109c1181b7")
 		)
 		(instances
 			(project "zegarek"
@@ -11922,7 +12878,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
 			(at 69.85 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -11956,10 +12912,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "a41b76cd-2c3d-421d-9e76-c372b35495f9")
+			(uuid "a41b76cd-2c3d-421d-9e76-c372b35495fb")
 		)
 		(pin "2"
-			(uuid "40a1f778-e2ba-4b8a-ad6f-68182b659eb3")
+			(uuid "40a1f778-e2ba-4b8a-ad6f-68182b659eb5")
 		)
 		(instances
 			(project "zegarek"
@@ -12004,7 +12960,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 40.64 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -12086,7 +13042,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 36.83 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -12120,10 +13076,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "9197cf1a-1184-4f71-b7e4-d404d09961af")
+			(uuid "9197cf1a-1184-4f71-b7e4-d404d09961b3")
 		)
 		(pin "1"
-			(uuid "3f61084a-968b-4d99-bc44-a137396fc1fa")
+			(uuid "3f61084a-968b-4d99-bc44-a137396fc1fe")
 		)
 		(instances
 			(project "zegarek"
@@ -12168,7 +13124,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 27.94 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -12202,10 +13158,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "db10f474-6ca8-4f58-b045-ea5abdf537f1")
+			(uuid "db10f474-6ca8-4f58-b045-ea5abdf537f2")
 		)
 		(pin "2"
-			(uuid "c319c44f-5d40-43ac-b810-b36e39b7682e")
+			(uuid "c319c44f-5d40-43ac-b810-b36e39b7682f")
 		)
 		(instances
 			(project "zegarek"
@@ -12218,7 +13174,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 248.92 76.2 0)
+		(at 257.81 48.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12229,7 +13185,7 @@
 		(fields_autoplaced yes)
 		(uuid "f990f2d4-9fef-4e85-9562-29c318b28493")
 		(property "Reference" "J5"
-			(at 251.46 76.1999 0)
+			(at 260.35 48.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12240,7 +13196,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04"
-			(at 251.46 78.7399 0)
+			(at 260.35 50.7999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12250,8 +13206,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 248.92 76.2 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+			(at 257.81 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12262,7 +13218,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 248.92 76.2 0)
+			(at 257.81 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12273,7 +13229,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 248.92 76.2 0)
+			(at 257.81 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12377,6 +13333,85 @@
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
 					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 222.25 76.2 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fc9940d0-de56-4233-98b2-a7ae5394beff")
+		(property "Reference" "R42"
+			(at 222.1865 71.882 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "220"
+			(at 222.1865 74.422 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+			(at 222.25 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 222.25 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "721928d2-ac01-4a82-9b01-17bbc6fc2f95")
+		)
+		(pin "2"
+			(uuid "07a00356-45d5-40e1-a182-f6e458bda361")
+		)
+		(instances
+			(project "zegarek"
+				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
+					(reference "R42")
 					(unit 1)
 				)
 			)
