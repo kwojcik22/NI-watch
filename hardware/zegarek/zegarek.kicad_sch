@@ -5,9 +5,29 @@
 	(uuid "f4008fb9-ad6b-45c6-9bc0-571e7640a726")
 	(paper "A4")
 	(lib_symbols)
+	(text "12V -> 5V\n12V -> 3V3\n12V -> 100V"
+		(exclude_from_sim no)
+		(at 59.182 67.818 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "37ace9a2-9571-4fe4-8637-5109c72adcb2")
+	)
+	(bus
+		(pts
+			(xy 152.4 60.96) (xy 203.2 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ccc6cbe-7212-4873-bebd-0b3bed410f6a")
+	)
 	(sheet
-		(at 119.126 50.292)
-		(size 33.02 38.1)
+		(at 119.126 50.8)
+		(size 33.274 37.846)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -22,7 +42,7 @@
 		)
 		(uuid "209f222f-184e-41c4-8d66-9f0390d2086f")
 		(property "Sheetname" "MCU"
-			(at 119.126 49.5804 0)
+			(at 119.126 50.0884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33,7 +53,7 @@
 			)
 		)
 		(property "Sheetfile" "MCU.kicad_sch"
-			(at 119.126 88.9766 0)
+			(at 119.126 89.2306 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -41,6 +61,56 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "BDC_BUS" output
+			(at 152.4 60.96 0)
+			(uuid "1c5c3021-c0c5-436c-84fd-cf529af847b4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BTNDN" input
+			(at 152.4 85.09 0)
+			(uuid "e7b143fe-5900-4d05-9849-fd1671fc2bb4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BTNOK" input
+			(at 152.4 80.01 0)
+			(uuid "3e44b9e3-27eb-4aa4-bc58-6840508d0fb1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BTNUP" input
+			(at 152.4 82.55 0)
+			(uuid "2193d38f-aa5a-453c-9c87-f9e40917a14a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BUZZER" input
+			(at 119.126 85.09 180)
+			(uuid "697dbe26-2368-4b10-ba54-49cd42cd25f9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -52,8 +122,8 @@
 		)
 	)
 	(sheet
-		(at 203.454 50.8)
-		(size 38.862 38.1)
+		(at 203.2 50.8)
+		(size 39.116 38.1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -68,7 +138,7 @@
 		)
 		(uuid "3747ac4d-da4e-4490-9c0e-c39823969276")
 		(property "Sheetname" "NIXIE"
-			(at 203.454 50.0884 0)
+			(at 203.2 50.0884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -79,7 +149,7 @@
 			)
 		)
 		(property "Sheetfile" "NIXIE.kicad_sch"
-			(at 203.454 89.4846 0)
+			(at 203.2 89.4846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -90,7 +160,7 @@
 			)
 		)
 		(pin "BCD_BUS" input
-			(at 203.454 69.85 180)
+			(at 203.2 60.96 180)
 			(uuid "3d56b0db-e9ba-430f-be32-e814abf9c623")
 			(effects
 				(font
@@ -108,8 +178,8 @@
 		)
 	)
 	(sheet
-		(at 25.146 50.546)
-		(size 25.908 26.416)
+		(at 40.64 50.8)
+		(size 40.894 37.084)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -124,7 +194,7 @@
 		)
 		(uuid "7ab84b86-daac-4da7-88e2-9a4f8795c6aa")
 		(property "Sheetname" "PWR MNG"
-			(at 25.146 49.8344 0)
+			(at 40.64 50.0884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -135,7 +205,7 @@
 			)
 		)
 		(property "Sheetfile" "PWR_MNG.kicad_sch"
-			(at 25.146 77.5466 0)
+			(at 40.64 88.4686 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

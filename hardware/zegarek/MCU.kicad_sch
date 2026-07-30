@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "cfacd14f-6da6-486b-b8cf-29d29b22365b")
+	(uuid "33518ade-fd71-4da8-8b66-7a103ba2e61c")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Connector:TestPoint"
@@ -6286,16 +6286,6 @@
 		)
 		(uuid "01428a06-5845-4796-b7f9-8615d6052f30")
 	)
-	(label "BUZZER"
-		(at 171.45 101.6 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "01f4254e-34a6-421c-b0cd-2c60b9f499b0")
-	)
 	(label "MH_C"
 		(at 162.56 132.08 0)
 		(effects
@@ -6395,16 +6385,6 @@
 			(justify left bottom)
 		)
 		(uuid "520da5a4-4e2a-4438-84ec-8a8e4b86d4ca")
-	)
-	(label "BTNUP"
-		(at 171.45 86.36 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "73867970-0e9b-4c36-802c-0ca136019d90")
 	)
 	(label "TMS"
 		(at 171.45 96.52 180)
@@ -6549,26 +6529,6 @@
 		)
 		(uuid "e3408912-26ee-4517-83b2-b4c7079cbd91")
 	)
-	(label "BTNOK"
-		(at 171.45 121.92 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e59cc0d8-8e66-4bcf-a6f9-abe4d9048d4e")
-	)
-	(label "BTNDN"
-		(at 106.68 101.6 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e73a15ef-b5dd-40a6-a2b1-3110d49aca4a")
-	)
 	(label "BOOT"
 		(at 118.11 73.66 0)
 		(effects
@@ -6642,6 +6602,17 @@
 		)
 		(uuid "4ab216b9-84af-4625-871f-3f3b3a6c8eb5")
 	)
+	(hierarchical_label "BUZZER"
+		(shape input)
+		(at 171.45 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4f2c3220-2d90-4527-ba3d-969d6b7129bc")
+	)
 	(hierarchical_label "BDC_BUS"
 		(shape output)
 		(at 114.3 81.28 180)
@@ -6652,6 +6623,39 @@
 			(justify right)
 		)
 		(uuid "573deab1-f177-4a4f-8be1-16200ba33273")
+	)
+	(hierarchical_label "BTNOK"
+		(shape input)
+		(at 171.45 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "60548e87-a019-4410-9b78-2d60508fe8e9")
+	)
+	(hierarchical_label "BTNUP"
+		(shape input)
+		(at 171.45 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ae5912d8-3018-4ae7-bd6f-7565992109e8")
+	)
+	(hierarchical_label "BTNDN"
+		(shape input)
+		(at 106.68 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c0d549aa-69a2-42d8-8161-21ecab501088")
 	)
 	(symbol
 		(lib_id "Connector:USB_C_Plug_USB2.0")
