@@ -5254,16 +5254,10 @@
 		)
 	)
 	(junction
-		(at 102.87 115.57)
+		(at 66.04 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "04af8c5f-a84a-459a-a82f-047d6103da08")
-	)
-	(junction
-		(at 102.87 123.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "15182ee0-90d7-4890-b668-4e9d9580f0e8")
+		(uuid "2a952929-0e0f-4e5e-8492-310f12ba0e90")
 	)
 	(junction
 		(at 55.88 101.6)
@@ -5278,16 +5272,22 @@
 		(uuid "4ecd4e33-830c-4bd5-bdfe-030c9ec0f929")
 	)
 	(junction
+		(at 102.87 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "56615070-cb7d-432b-bbdd-d03b98852015")
+	)
+	(junction
+		(at 36.83 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "56fe6171-1a9d-4f6e-bf44-ee0727daec1c")
+	)
+	(junction
 		(at 212.09 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5a6396a0-b52f-4930-b213-15feb60328a4")
-	)
-	(junction
-		(at 36.83 27.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5a67813b-f998-4afd-89e4-744fda4e37c4")
 	)
 	(junction
 		(at 143.51 55.88)
@@ -5308,10 +5308,10 @@
 		(uuid "8d4be430-488c-4262-b365-88ee708527af")
 	)
 	(junction
-		(at 36.83 43.18)
+		(at 102.87 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "abb745b4-8dae-4e3b-b9f2-f4f4e333ab97")
+		(uuid "be5c1353-8719-48b9-97a8-7ec6eb814a82")
 	)
 	(junction
 		(at 142.24 55.88)
@@ -5350,10 +5350,10 @@
 		(uuid "e592162f-2025-4d47-b6a8-1bff5263e748")
 	)
 	(junction
-		(at 66.04 43.18)
+		(at 36.83 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f84c3d12-84bd-4eff-b188-cbbf69ad9efd")
+		(uuid "fab73784-0ad9-482c-adff-cf9bb0e3b6ce")
 	)
 	(junction
 		(at 60.96 162.56)
@@ -5439,7 +5439,7 @@
 		(uuid "51e70784-52a6-4a48-97b5-0c79c1fde316")
 	)
 	(bus_entry
-		(at 114.3 88.9)
+		(at 102.87 88.9)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -5466,7 +5466,7 @@
 		(uuid "95ddb9ee-1f6f-475d-80a0-71052b22db1d")
 	)
 	(bus_entry
-		(at 114.3 83.82)
+		(at 102.87 83.82)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -5475,7 +5475,7 @@
 		(uuid "a34cde50-a3b0-49aa-8e76-ffb055dcff46")
 	)
 	(bus_entry
-		(at 114.3 81.28)
+		(at 102.87 81.28)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -5511,7 +5511,7 @@
 		(uuid "c3ed5aaa-e833-4747-a9df-3b1c3959eb06")
 	)
 	(bus_entry
-		(at 114.3 86.36)
+		(at 102.87 86.36)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -5559,7 +5559,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 83.82) (xy 124.46 83.82)
+			(xy 105.41 83.82) (xy 124.46 83.82)
 		)
 		(stroke
 			(width 0)
@@ -5579,16 +5579,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 71.12) (xy 179.07 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d2cec4c-f6ca-4b44-b986-04236f38d13e")
-	)
-	(wire
-		(pts
 			(xy 109.22 115.57) (xy 102.87 115.57)
 		)
 		(stroke
@@ -5596,26 +5586,6 @@
 			(type default)
 		)
 		(uuid "0de230d5-59af-4e4e-9cbf-9180683bec35")
-	)
-	(bus
-		(pts
-			(xy 172.72 124.46) (xy 172.72 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "17eef8f6-d266-4ba8-bee4-1452541aae0d")
-	)
-	(wire
-		(pts
-			(xy 116.84 86.36) (xy 124.46 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19238147-d0a4-45e0-bf90-d5c98279b71c")
 	)
 	(wire
 		(pts
@@ -5626,6 +5596,16 @@
 			(type default)
 		)
 		(uuid "192b71ff-0c0b-49b1-8b4d-55d5a4f53d96")
+	)
+	(wire
+		(pts
+			(xy 160.02 76.2) (xy 186.69 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1aba90d2-f75d-4802-8a63-ecb295f4a748")
 	)
 	(wire
 		(pts
@@ -5699,6 +5679,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 43.18) (xy 36.83 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26530a15-643b-4e51-8dd6-4378619a650f")
+	)
+	(wire
+		(pts
 			(xy 143.51 55.88) (xy 144.78 55.88)
 		)
 		(stroke
@@ -5757,6 +5747,16 @@
 		)
 		(uuid "30295a32-ae16-4277-91a4-e9e05dbba409")
 	)
+	(bus
+		(pts
+			(xy 180.34 104.14) (xy 171.45 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30737b8a-eb83-4688-b2fd-1c06a056cfb6")
+	)
 	(wire
 		(pts
 			(xy 160.02 137.16) (xy 170.18 137.16)
@@ -5796,16 +5796,6 @@
 			(type default)
 		)
 		(uuid "3af38fe4-e7b1-42ae-9a2e-5841d155ea59")
-	)
-	(wire
-		(pts
-			(xy 160.02 73.66) (xy 186.69 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ba65914-5051-445f-91f1-ec3356608d1c")
 	)
 	(wire
 		(pts
@@ -5849,7 +5839,7 @@
 	)
 	(bus
 		(pts
-			(xy 114.3 81.28) (xy 114.3 88.9)
+			(xy 102.87 81.28) (xy 102.87 88.9)
 		)
 		(stroke
 			(width 0)
@@ -5869,7 +5859,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 91.44) (xy 124.46 91.44)
+			(xy 105.41 91.44) (xy 124.46 91.44)
 		)
 		(stroke
 			(width 0)
@@ -5917,15 +5907,15 @@
 		)
 		(uuid "56ce1cce-115f-46bb-b538-9062aba8ced2")
 	)
-	(bus
+	(wire
 		(pts
-			(xy 171.45 104.14) (xy 171.45 111.76)
+			(xy 160.02 78.74) (xy 194.31 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5f9f7c2b-3318-4fd8-affa-447ed27e92cd")
+		(uuid "5a49c3db-7499-4739-8aa0-853f3774823e")
 	)
 	(wire
 		(pts
@@ -5939,16 +5929,6 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 115.57) (xy 95.25 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6295a7bd-35a4-495d-96d7-e1aabd743e17")
-	)
-	(wire
-		(pts
 			(xy 76.2 33.02) (xy 76.2 34.29)
 		)
 		(stroke
@@ -5959,7 +5939,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 43.18) (xy 66.04 43.18)
+			(xy 54.61 43.18) (xy 66.04 43.18)
 		)
 		(stroke
 			(width 0)
@@ -5969,7 +5949,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 27.94) (xy 46.99 27.94)
+			(xy 36.83 27.94) (xy 48.26 27.94)
 		)
 		(stroke
 			(width 0)
@@ -5999,6 +5979,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 50.8) (xy 252.73 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b2afc14-4be8-426c-ae23-af0dfa465bf4")
+	)
+	(wire
+		(pts
 			(xy 60.96 162.56) (xy 58.42 162.56)
 		)
 		(stroke
@@ -6006,6 +5996,16 @@
 			(type default)
 		)
 		(uuid "711451a8-3ea3-419e-b099-b463f5226b50")
+	)
+	(wire
+		(pts
+			(xy 241.3 48.26) (xy 252.73 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7336f4a7-4f03-465f-bce2-a7420bbaa1a7")
 	)
 	(wire
 		(pts
@@ -6019,7 +6019,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 43.18) (xy 46.99 43.18)
+			(xy 36.83 43.18) (xy 49.53 43.18)
 		)
 		(stroke
 			(width 0)
@@ -6059,7 +6059,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 73.66) (xy 231.14 73.66)
+			(xy 217.17 76.2) (xy 231.14 76.2)
 		)
 		(stroke
 			(width 0)
@@ -6079,7 +6079,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 34.29) (xy 36.83 45.72)
+			(xy 36.83 34.29) (xy 36.83 43.18)
 		)
 		(stroke
 			(width 0)
@@ -6109,7 +6109,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 71.12) (xy 231.14 71.12)
+			(xy 209.55 73.66) (xy 231.14 73.66)
 		)
 		(stroke
 			(width 0)
@@ -6139,7 +6139,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 76.2) (xy 219.71 76.2)
+			(xy 201.93 78.74) (xy 219.71 78.74)
 		)
 		(stroke
 			(width 0)
@@ -6159,7 +6159,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 73.66) (xy 212.09 73.66)
+			(xy 194.31 76.2) (xy 212.09 76.2)
 		)
 		(stroke
 			(width 0)
@@ -6199,16 +6199,6 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 50.8) (xy 252.73 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a67db64f-6f18-4ba5-b6ba-82539c0c5511")
-	)
-	(wire
-		(pts
 			(xy 27.94 34.29) (xy 36.83 34.29)
 		)
 		(stroke
@@ -6216,6 +6206,16 @@
 			(type default)
 		)
 		(uuid "ab01a8fd-8316-4029-8926-86e570bde7f6")
+	)
+	(wire
+		(pts
+			(xy 160.02 73.66) (xy 179.07 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acd00f20-a52a-4509-abb5-e5ec3848a419")
 	)
 	(wire
 		(pts
@@ -6229,7 +6229,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 71.12) (xy 204.47 71.12)
+			(xy 186.69 73.66) (xy 204.47 73.66)
 		)
 		(stroke
 			(width 0)
@@ -6269,7 +6269,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 88.9) (xy 124.46 88.9)
+			(xy 105.41 88.9) (xy 124.46 88.9)
 		)
 		(stroke
 			(width 0)
@@ -6329,6 +6329,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 115.57) (xy 102.87 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bba8c1b4-e824-4525-b162-9b8648fe84d6")
+	)
+	(wire
+		(pts
 			(xy 109.22 119.38) (xy 109.22 115.57)
 		)
 		(stroke
@@ -6336,6 +6346,16 @@
 			(type default)
 		)
 		(uuid "bed99d26-2414-43db-9bc5-ae9b92fab9ec")
+	)
+	(bus
+		(pts
+			(xy 171.45 104.14) (xy 171.45 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c06bc57a-043d-40cf-aa93-ca5d99065fe2")
 	)
 	(wire
 		(pts
@@ -6369,16 +6389,6 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 48.26) (xy 252.73 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c730920e-2a95-4db4-8944-74a60e77e024")
-	)
-	(wire
-		(pts
 			(xy 76.2 34.29) (xy 66.04 34.29)
 		)
 		(stroke
@@ -6389,13 +6399,23 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 130.81) (xy 212.09 130.81)
+			(xy 203.2 130.81) (xy 212.09 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "caba7f3c-5dce-4126-9a38-39e1bc9d808d")
+	)
+	(wire
+		(pts
+			(xy 105.41 86.36) (xy 124.46 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf327870-dc72-41f2-a96c-01fd087a44c7")
 	)
 	(wire
 		(pts
@@ -6409,16 +6429,6 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 123.19) (xy 102.87 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d35707ad-805c-4f1b-9ac1-0b5e63fd1e65")
-	)
-	(wire
-		(pts
 			(xy 160.02 144.78) (xy 170.18 144.78)
 		)
 		(stroke
@@ -6426,6 +6436,16 @@
 			(type default)
 		)
 		(uuid "da5f8e60-a473-400f-9824-034ad5af31cd")
+	)
+	(wire
+		(pts
+			(xy 95.25 123.19) (xy 102.87 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dabcf40d-8d64-49e6-b853-fd5f412864dd")
 	)
 	(wire
 		(pts
@@ -6456,6 +6476,16 @@
 			(type default)
 		)
 		(uuid "e1bab360-a285-414a-b380-b42d97e0d97a")
+	)
+	(bus
+		(pts
+			(xy 172.72 124.46) (xy 172.72 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2a3d4e0-8abd-46b3-8056-0c28fb4a65cd")
 	)
 	(wire
 		(pts
@@ -6529,7 +6559,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 27.94) (xy 66.04 27.94)
+			(xy 55.88 27.94) (xy 66.04 27.94)
 		)
 		(stroke
 			(width 0)
@@ -6547,25 +6577,25 @@
 		)
 		(uuid "f6980bd5-0ce9-4f86-96fb-e300d985baa7")
 	)
+	(bus
+		(pts
+			(xy 172.72 124.46) (xy 177.8 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7c56f01-37c9-45c1-b808-739cb94260e0")
+	)
 	(wire
 		(pts
-			(xy 224.79 76.2) (xy 231.14 76.2)
+			(xy 224.79 78.74) (xy 231.14 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f8c3046c-10ad-44a0-b422-509b5e0c95f4")
-	)
-	(wire
-		(pts
-			(xy 160.02 76.2) (xy 194.31 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb58d562-dedd-41c7-b4ca-cb4f1dc32113")
 	)
 	(label "MH_A"
 		(at 162.56 127 0)
@@ -6597,6 +6627,16 @@
 		)
 		(uuid "048ecd88-9ebe-4d17-b176-df9351565713")
 	)
+	(label "D+"
+		(at 245.11 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0b40be49-6d45-4d39-a7fc-d45c492d1335")
+	)
 	(label "DEBUG_TX"
 		(at 175.26 63.5 180)
 		(effects
@@ -6606,6 +6646,16 @@
 			(justify right bottom)
 		)
 		(uuid "0d4d3617-2076-45d4-8d18-b460cc48da35")
+	)
+	(label "D-"
+		(at 247.65 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0f3afcf1-8e63-4995-a596-678adfefb08b")
 	)
 	(label "MH_B"
 		(at 162.56 129.54 0)
@@ -6658,7 +6708,7 @@
 		(uuid "23fbac71-fbb7-4fde-ba76-a40a9554e842")
 	)
 	(label "HH_C"
-		(at 116.84 88.9 0)
+		(at 107.95 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6689,7 +6739,7 @@
 		(uuid "7df41a27-9eee-4486-8ca7-e06067dc6f34")
 	)
 	(label "HH_A"
-		(at 116.84 83.82 0)
+		(at 107.95 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6709,7 +6759,7 @@
 		(uuid "8c0b29fd-6097-4e18-af48-6cdb5e10afc5")
 	)
 	(label "HH_D"
-		(at 116.84 91.44 0)
+		(at 107.95 91.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6739,7 +6789,7 @@
 		(uuid "a0b695f8-05da-4453-978e-b1c4db781314")
 	)
 	(label "TMS"
-		(at 241.3 50.8 0)
+		(at 241.3 48.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6771,7 +6821,7 @@
 		(uuid "af45725b-51f2-4684-95c0-77802cce090f")
 	)
 	(label "HH_B"
-		(at 116.84 86.36 0)
+		(at 107.95 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6831,7 +6881,7 @@
 		(uuid "e8e02bb2-3202-4c2c-87aa-9ddc743a00df")
 	)
 	(label "TCK"
-		(at 241.3 48.26 0)
+		(at 241.3 50.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6871,9 +6921,9 @@
 		)
 		(uuid "f9f4e0c7-1e40-4173-b823-36563af03d7a")
 	)
-	(hierarchical_label "BDC_BUS"
+	(hierarchical_label "{BCD_BUS}"
 		(shape output)
-		(at 171.45 104.14 0)
+		(at 180.34 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6882,9 +6932,9 @@
 		)
 		(uuid "2a4fe246-4c52-4e6e-9ebf-3c73cecf5744")
 	)
-	(hierarchical_label "BDC_BUS"
+	(hierarchical_label "{BCD_BUS}"
 		(shape output)
-		(at 172.72 124.46 0)
+		(at 177.8 124.46 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6904,9 +6954,9 @@
 		)
 		(uuid "4f2c3220-2d90-4527-ba3d-969d6b7129bc")
 	)
-	(hierarchical_label "BDC_BUS"
+	(hierarchical_label "{BCD_BUS}"
 		(shape output)
-		(at 114.3 81.28 180)
+		(at 102.87 81.28 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7065,7 +7115,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 205.74 130.81 0)
+		(at 203.2 130.81 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7075,7 +7125,7 @@
 		(dnp no)
 		(uuid "06145083-aa20-4035-87a1-68611c68ade8")
 		(property "Reference" "TP1"
-			(at 200.914 121.92 0)
+			(at 198.374 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7085,8 +7135,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 200.914 124.46 0)
+		(property "Value" "DEBUG RST"
+			(at 198.374 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7096,8 +7146,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 210.82 130.81 0)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.60mm_Drill0.9mm_Beaded"
+			(at 208.28 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7108,7 +7158,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 210.82 130.81 0)
+			(at 208.28 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7119,7 +7169,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 205.74 130.81 0)
+			(at 203.2 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7153,7 +7203,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "110d376b-23af-4259-b91d-98bb9db723fd")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR051"
 			(at 180.34 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -7213,7 +7263,7 @@
 		(instances
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
-					(reference "#PWR030")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -7231,7 +7281,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "145f8b3f-b43d-47db-9a4b-cf6c3f8f86ec")
-		(property "Reference" "R6"
+		(property "Reference" "R15"
 			(at 53.34 93.9799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7253,7 +7303,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 50.8 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -7295,7 +7345,7 @@
 		(instances
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
-					(reference "R6")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -7313,7 +7363,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "16c2dc3a-5527-46b8-bad1-83904d9f886e")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR040"
 			(at 124.46 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -7373,7 +7423,7 @@
 		(instances
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
-					(reference "#PWR017")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -7391,7 +7441,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1e220605-bc8a-4aee-ae01-e9a3f6c767b2")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR047"
 			(at 149.86 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -7451,7 +7501,7 @@
 		(instances
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
-					(reference "#PWR08")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -7469,7 +7519,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f355885-4c01-41b9-915c-6aaf7934376e")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR033"
 			(at 55.88 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -7529,7 +7579,7 @@
 		(instances
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
-					(reference "#PWR025")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -7547,7 +7597,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "22b7ac9f-af9e-4b06-9f25-54b08b757e91")
-		(property "Reference" "R7"
+		(property "Reference" "R13"
 			(at 39.37 105.4099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7569,7 +7619,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 36.83 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -7611,7 +7661,7 @@
 		(instances
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
-					(reference "R7")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -7628,7 +7678,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "243a735b-cbfd-4f4b-a646-04da505cb832")
-		(property "Reference" "R9"
+		(property "Reference" "R18"
 			(at 119.38 123.952 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7648,7 +7698,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 119.38 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -7690,7 +7740,7 @@
 		(instances
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
-					(reference "R9")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -7698,7 +7748,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 207.01 71.12 90)
+		(at 207.01 73.66 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7707,8 +7757,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "25f83db7-6b92-4f1c-9078-5c4f1ac501fe")
-		(property "Reference" "R40"
-			(at 206.9465 66.802 90)
+		(property "Reference" "R19"
+			(at 206.9465 69.342 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7718,7 +7768,7 @@
 			)
 		)
 		(property "Value" "220"
-			(at 206.9465 69.342 90)
+			(at 206.9465 71.882 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7727,8 +7777,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
-			(at 207.01 71.12 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 207.01 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7739,7 +7789,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 207.01 71.12 0)
+			(at 207.01 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7750,7 +7800,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 207.01 71.12 0)
+			(at 207.01 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7769,7 +7819,7 @@
 		(instances
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
-					(reference "R40")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -7787,7 +7837,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "28fc5757-30d8-40aa-8e02-8169daa48529")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR043"
 			(at 142.24 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -7847,7 +7897,7 @@
 		(instances
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
-					(reference "#PWR015")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -7866,7 +7916,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "30d6d7c8-bc80-40a6-9fcb-39f02819eed8")
-		(property "Reference" "R11"
+		(property "Reference" "R16"
 			(at 55.88 157.48 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7886,7 +7936,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 55.88 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -7928,7 +7978,7 @@
 		(instances
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
-					(reference "R11")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -7946,7 +7996,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "37c97d25-3685-4735-9447-eb79ec67347a")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR054"
 			(at 205.74 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -8006,7 +8056,7 @@
 		(instances
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
-					(reference "#PWR036")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -8024,7 +8074,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "387e00ff-869e-4c2e-9dc4-cb232c906ef4")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR055"
 			(at 205.74 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -8084,7 +8134,7 @@
 		(instances
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
-					(reference "#PWR032")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -8102,7 +8152,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ba18f13-d509-4bc4-88b1-0a2ff552ec03")
-		(property "Reference" "C17"
+		(property "Reference" "C16"
 			(at 78.74 29.2162 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8166,7 +8216,7 @@
 		(instances
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
-					(reference "C17")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -8174,7 +8224,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 190.5 73.66 180)
+		(at 190.5 76.2 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8184,16 +8234,6 @@
 		(dnp no)
 		(uuid "3c28a830-4a1e-4b45-a92f-a74564a4c5e3")
 		(property "Reference" "D3"
-			(at 192.024 66.802 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
 			(at 192.024 69.342 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8203,8 +8243,18 @@
 				)
 			)
 		)
+		(property "Value" "LED"
+			(at 192.024 71.882 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 190.5 73.66 0)
+			(at 190.5 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8215,7 +8265,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 73.66 0)
+			(at 190.5 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8226,7 +8276,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 190.5 73.66 0)
+			(at 190.5 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8237,7 +8287,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 190.5 73.66 0)
+			(at 190.5 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8274,7 +8324,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3db8841e-2b13-455c-a444-8f8e37ca63cf")
-		(property "Reference" "C7"
+		(property "Reference" "C22"
 			(at 196.85 29.2099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8338,7 +8388,7 @@
 		(instances
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
-					(reference "C7")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -8356,7 +8406,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3fd3ca07-31e3-4fa7-a724-f0df29bf0cbd")
-		(property "Reference" "R10"
+		(property "Reference" "R14"
 			(at 49.53 154.9399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8378,7 +8428,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 46.99 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -8420,7 +8470,7 @@
 		(instances
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
-					(reference "R10")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -8428,7 +8478,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 198.12 76.2 180)
+		(at 198.12 78.74 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8438,16 +8488,6 @@
 		(dnp no)
 		(uuid "444248c7-c824-4eba-ba7e-35e9287ba56d")
 		(property "Reference" "D4"
-			(at 199.644 69.342 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
 			(at 199.644 71.882 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8457,8 +8497,18 @@
 				)
 			)
 		)
+		(property "Value" "LED"
+			(at 199.644 74.422 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 198.12 76.2 0)
+			(at 198.12 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8469,7 +8519,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 76.2 0)
+			(at 198.12 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8480,7 +8530,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 198.12 76.2 0)
+			(at 198.12 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8491,7 +8541,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 198.12 76.2 0)
+			(at 198.12 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8528,7 +8578,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "47062806-b2b5-4444-8f63-f322e116da55")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR044"
 			(at 143.51 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -8588,7 +8638,7 @@
 		(instances
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
-					(reference "#PWR020")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -8606,7 +8656,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "49dfc3bd-ae7b-4053-a283-bdd2756dc8d3")
-		(property "Reference" "C6"
+		(property "Reference" "C21"
 			(at 184.15 29.2099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8670,7 +8720,7 @@
 		(instances
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
-					(reference "C6")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -8688,7 +8738,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4a655536-ee84-46a3-b377-9a139e9bf268")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR034"
 			(at 60.96 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -8748,7 +8798,7 @@
 		(instances
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
-					(reference "#PWR037")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -8766,7 +8816,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "52842753-7170-4f74-8066-4aad89ad2fb2")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR064"
 			(at 250.19 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -8826,7 +8876,7 @@
 		(instances
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
-					(reference "#PWR061")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -8844,7 +8894,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5773e483-05e8-42ab-bb01-389788477068")
-		(property "Reference" "C15"
+		(property "Reference" "C17"
 			(at 105.41 111.7662 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8908,7 +8958,7 @@
 		(instances
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
-					(reference "C15")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -8916,7 +8966,7 @@
 	)
 	(symbol
 		(lib_id "Device:FerriteBead")
-		(at 50.8 27.94 90)
+		(at 52.07 27.94 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8927,7 +8977,7 @@
 		(fields_autoplaced yes)
 		(uuid "5c77b8bb-6156-4024-bf2f-e2481b3cf55d")
 		(property "Reference" "FB1"
-			(at 50.7492 20.32 90)
+			(at 52.0192 20.32 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8937,7 +8987,7 @@
 			)
 		)
 		(property "Value" "BLM18AG121SN1"
-			(at 50.7492 22.86 90)
+			(at 52.0192 22.86 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8947,7 +8997,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 50.8 29.718 90)
+			(at 52.07 29.718 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8958,7 +9008,7 @@
 			)
 		)
 		(property "Datasheet" "Ferryt 120Ω@100MHz, DCR~0.2Ω, w 0603"
-			(at 50.8 27.94 0)
+			(at 52.07 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8969,7 +9019,7 @@
 			)
 		)
 		(property "Description" "Ferrite bead"
-			(at 50.8 27.94 0)
+			(at 52.07 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9006,7 +9056,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6058d981-2285-4ee6-a626-19c4d5a222a9")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR052"
 			(at 193.04 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -9066,7 +9116,7 @@
 		(instances
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
-					(reference "#PWR035")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -9084,7 +9134,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "63931f45-822d-4b51-a927-6b9d552238af")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR049"
 			(at 167.64 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -9144,7 +9194,7 @@
 		(instances
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
-					(reference "#PWR029")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -9162,7 +9212,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "64e36aae-6591-4097-b5c0-1db4ad24a1e8")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR037"
 			(at 69.85 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -9222,7 +9272,7 @@
 		(instances
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
-					(reference "#PWR023")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -9240,7 +9290,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "69e6a006-6ccc-41d5-9da7-b88187262c90")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR031"
 			(at 46.99 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -9300,7 +9350,7 @@
 		(instances
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
-					(reference "#PWR040")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -9318,7 +9368,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6ac2dc61-ccae-4bf0-bf42-67b42d5a5806")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR063"
 			(at 250.19 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -9378,7 +9428,7 @@
 		(instances
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
-					(reference "#PWR059")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -9386,7 +9436,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 231.14 73.66 90)
+		(at 231.14 76.2 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9396,8 +9446,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6ac34ea4-f8f6-4e43-8518-57e949e8322d")
-		(property "Reference" "#PWR082"
-			(at 237.49 73.66 0)
+		(property "Reference" "#PWR059"
+			(at 237.49 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9408,7 +9458,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 234.95 73.6599 90)
+			(at 234.95 76.1999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9419,7 +9469,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 231.14 73.66 0)
+			(at 231.14 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9430,7 +9480,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 231.14 73.66 0)
+			(at 231.14 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9441,7 +9491,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 231.14 73.66 0)
+			(at 231.14 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9457,7 +9507,7 @@
 		(instances
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
-					(reference "#PWR082")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -9475,7 +9525,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6ae0352b-75e7-46e2-afba-54edbd3d1c86")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR056"
 			(at 212.09 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -9535,7 +9585,7 @@
 		(instances
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
-					(reference "#PWR041")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -9554,7 +9604,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6f846cc8-b07c-40d5-913c-16e9753e3742")
-		(property "Reference" "U3"
+		(property "Reference" "U5"
 			(at 235.5281 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9661,7 +9711,7 @@
 		(instances
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
-					(reference "U3")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -9679,7 +9729,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "741eefe9-229b-43e9-83ac-8593fd7310e9")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR042"
 			(at 137.16 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -9739,7 +9789,7 @@
 		(instances
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
-					(reference "#PWR018")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -9757,7 +9807,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7b3a9092-404e-455e-9d58-fb0c7cdd9a70")
-		(property "Reference" "C5"
+		(property "Reference" "C20"
 			(at 171.45 29.2099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9821,7 +9871,7 @@
 		(instances
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
-					(reference "C5")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -9829,7 +9879,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:Jumper_2_Small_Bridged")
-		(at 49.53 43.18 0)
+		(at 52.07 43.18 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9840,7 +9890,7 @@
 		(fields_autoplaced yes)
 		(uuid "7cc2e3ea-3d3e-4199-a7ae-3a0c554cc4b1")
 		(property "Reference" "JP1"
-			(at 49.53 38.1 0)
+			(at 52.07 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9850,7 +9900,7 @@
 			)
 		)
 		(property "Value" "Jumper_2_Small_Bridged"
-			(at 49.53 40.64 0)
+			(at 52.07 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9860,7 +9910,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
-			(at 49.53 43.18 0)
+			(at 52.07 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9871,7 +9921,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 43.18 0)
+			(at 52.07 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9882,7 +9932,7 @@
 			)
 		)
 		(property "Description" "Jumper, 2-pole, small symbol, bridged"
-			(at 49.53 43.18 0)
+			(at 52.07 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9909,7 +9959,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 182.88 71.12 180)
+		(at 182.88 73.66 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9919,16 +9969,6 @@
 		(dnp no)
 		(uuid "7fcc28ab-a05c-4557-a525-419c4cb5c212")
 		(property "Reference" "D2"
-			(at 184.404 64.262 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
 			(at 184.404 66.802 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9938,8 +9978,18 @@
 				)
 			)
 		)
+		(property "Value" "LED"
+			(at 184.404 69.342 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 182.88 71.12 0)
+			(at 182.88 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9950,7 +10000,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 71.12 0)
+			(at 182.88 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9961,7 +10011,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 182.88 71.12 0)
+			(at 182.88 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9972,7 +10022,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 182.88 71.12 0)
+			(at 182.88 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10009,7 +10059,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "82963fee-a9ce-4dbc-9370-2569403adefa")
-		(property "Reference" "U2"
+		(property "Reference" "U4"
 			(at 146.9233 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10260,7 +10310,7 @@
 		(instances
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
-					(reference "U2")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -10278,7 +10328,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "82c30c93-24db-4783-a126-3e3e0e1fb9ed")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR030"
 			(at 36.83 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -10338,7 +10388,7 @@
 		(instances
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
-					(reference "#PWR022")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -10356,7 +10406,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8370b876-28ad-475b-b58f-f2dff3d6692b")
-		(property "Reference" "C13"
+		(property "Reference" "C14"
 			(at 63.5 163.8362 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10420,7 +10470,7 @@
 		(instances
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
-					(reference "C13")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -10520,7 +10570,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "86345284-7ca7-46b1-a017-b1865db74193")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR045"
 			(at 144.78 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -10580,7 +10630,7 @@
 		(instances
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
-					(reference "#PWR016")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -10598,7 +10648,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8748c0d1-e336-40c6-9727-b6443ed156e3")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR053"
 			(at 193.04 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -10658,7 +10708,7 @@
 		(instances
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
-					(reference "#PWR031")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -10676,7 +10726,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "87811fbf-52fc-4ee9-8a07-1a5f26068fc0")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR038"
 			(at 102.87 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -10736,7 +10786,7 @@
 		(instances
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
-					(reference "#PWR039")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -10754,7 +10804,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8af4944f-7d0d-4227-aa58-496faaed7079")
-		(property "Reference" "C14"
+		(property "Reference" "C18"
 			(at 105.41 124.4662 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10818,7 +10868,7 @@
 		(instances
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
-					(reference "C14")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -10836,7 +10886,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8be253d5-d649-4f8a-b2fb-2fd7f1dbbf0f")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR048"
 			(at 167.64 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -10896,7 +10946,7 @@
 		(instances
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
-					(reference "#PWR033")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -10904,7 +10954,7 @@
 	)
 	(symbol
 		(lib_id "Device:Crystal")
-		(at 95.25 119.38 90)
+		(at 95.25 119.38 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10922,7 +10972,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "32.768kHz"
@@ -10933,10 +10983,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_AT310_D3.0mm_L10.0mm_Horizontal_1EP_style1"
+		(property "Footprint" "Crystal:Crystal_AT310_D3.0mm_L10.0mm_Horizontal"
 			(at 95.25 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -10996,7 +11046,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8f6b2334-1927-4657-a9c2-d8edcc47c862")
-		(property "Reference" "R12"
+		(property "Reference" "R20"
 			(at 214.63 125.7299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11018,7 +11068,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 212.09 127 0)
 			(hide yes)
 			(show_name no)
@@ -11060,7 +11110,7 @@
 		(instances
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
-					(reference "R12")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -11078,7 +11128,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "927d3d1c-22d7-4dbd-9d2d-b5c0353f8977")
-		(property "Reference" "C10"
+		(property "Reference" "C13"
 			(at 59.69 104.1399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11142,7 +11192,7 @@
 		(instances
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
-					(reference "C10")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -11160,7 +11210,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9289ba69-7532-4afe-bd5b-e1a0b84df558")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR035"
 			(at 66.04 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -11220,7 +11270,7 @@
 		(instances
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
-					(reference "#PWR028")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -11238,7 +11288,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9651f6be-2e5d-46a0-8372-8f165724ab05")
-		(property "Reference" "SW1"
+		(property "Reference" "SW4"
 			(at 44.45 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11300,7 +11350,7 @@
 		(instances
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
-					(reference "SW1")
+					(reference "SW4")
 					(unit 1)
 				)
 			)
@@ -11318,7 +11368,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "96d44144-ef53-449a-a4c3-ce116b7d8ec2")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR039"
 			(at 102.87 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -11378,7 +11428,7 @@
 		(instances
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
-					(reference "#PWR038")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -11396,7 +11446,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a1453b1-726a-4be6-b675-b93ee474f67a")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR041"
 			(at 124.46 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -11456,7 +11506,7 @@
 		(instances
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
-					(reference "#PWR019")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -11474,7 +11524,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9b584e7d-9375-4d56-9c74-cd5715c234f1")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR057"
 			(at 212.09 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -11534,7 +11584,7 @@
 		(instances
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
-					(reference "#PWR042")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -11552,7 +11602,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9db9531b-4fc1-48d3-9487-3412fcb8acdc")
-		(property "Reference" "C8"
+		(property "Reference" "C23"
 			(at 209.55 29.2099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11616,7 +11666,7 @@
 		(instances
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
-					(reference "C8")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -11624,7 +11674,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 214.63 73.66 90)
+		(at 214.63 76.2 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11633,8 +11683,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a37a5e15-c171-4132-a7ed-002c712520b8")
-		(property "Reference" "R41"
-			(at 214.5665 69.342 90)
+		(property "Reference" "R21"
+			(at 214.5665 71.882 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11644,7 +11694,7 @@
 			)
 		)
 		(property "Value" "220"
-			(at 214.5665 71.882 90)
+			(at 214.5665 74.422 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11653,8 +11703,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
-			(at 214.63 73.66 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 214.63 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11665,7 +11715,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 214.63 73.66 0)
+			(at 214.63 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11676,7 +11726,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 214.63 73.66 0)
+			(at 214.63 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11695,7 +11745,7 @@
 		(instances
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
-					(reference "R41")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -11713,7 +11763,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a54d0a77-3cfa-4bfb-8858-8b51e9656f25")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR029"
 			(at 36.83 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -11773,7 +11823,7 @@
 		(instances
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
-					(reference "#PWR024")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -11791,7 +11841,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a92a97e6-3b14-4bad-93ff-836a542d7f4d")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR050"
 			(at 180.34 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -11851,7 +11901,7 @@
 		(instances
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
-					(reference "#PWR034")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -11869,7 +11919,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "af01c105-27bc-4c01-a6e9-b16465175c27")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR032"
 			(at 50.8 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -11929,7 +11979,7 @@
 		(instances
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
-					(reference "#PWR07")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -11947,7 +11997,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0d71fb2-0a9e-479f-81a7-cd98273a6559")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR065"
 			(at 267.97 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -12007,7 +12057,7 @@
 		(instances
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
-					(reference "#PWR014")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -12025,7 +12075,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba965016-9efc-44e5-a602-cc92da054ef9")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR046"
 			(at 147.32 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -12085,7 +12135,7 @@
 		(instances
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
-					(reference "#PWR021")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -12103,7 +12153,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bce2301f-956f-4cde-a736-7e4077d0ae37")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR062"
 			(at 232.41 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -12163,7 +12213,7 @@
 		(instances
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
-					(reference "#PWR013")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -12296,7 +12346,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c2a0771e-5154-4b2c-a839-f03cd740af6e")
-		(property "Reference" "C16"
+		(property "Reference" "C24"
 			(at 215.9 133.3499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12360,7 +12410,7 @@
 		(instances
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
-					(reference "C16")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -12368,7 +12418,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 231.14 76.2 90)
+		(at 231.14 78.74 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12378,8 +12428,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c8ae21e6-c121-4dd9-b2a3-83b7c1ae959a")
-		(property "Reference" "#PWR083"
-			(at 237.49 76.2 0)
+		(property "Reference" "#PWR060"
+			(at 237.49 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12390,7 +12440,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 234.95 76.1999 90)
+			(at 234.95 78.7399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12401,7 +12451,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 231.14 76.2 0)
+			(at 231.14 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12412,7 +12462,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 231.14 76.2 0)
+			(at 231.14 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12423,7 +12473,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 231.14 76.2 0)
+			(at 231.14 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12439,7 +12489,7 @@
 		(instances
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
-					(reference "#PWR083")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -12457,7 +12507,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d5492253-a222-4c7e-a357-020ac36baa34")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR061"
 			(at 232.41 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -12517,7 +12567,7 @@
 		(instances
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
-					(reference "#PWR012")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -12535,7 +12585,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d6b05d48-bb34-450e-9992-5124477f0d04")
-		(property "Reference" "C11"
+		(property "Reference" "C15"
 			(at 68.58 29.3369 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12599,7 +12649,7 @@
 		(instances
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
-					(reference "C11")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -12617,7 +12667,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dae3fdf9-d241-41f7-a06d-3994ffad1ff2")
-		(property "Reference" "C4"
+		(property "Reference" "C19"
 			(at 116.84 29.2099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12681,7 +12731,7 @@
 		(instances
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
-					(reference "C4")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -12689,7 +12739,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 231.14 71.12 90)
+		(at 231.14 73.66 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12699,8 +12749,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db1695fc-8a8a-413d-b499-f2cfac64aa86")
-		(property "Reference" "#PWR081"
-			(at 237.49 71.12 0)
+		(property "Reference" "#PWR058"
+			(at 237.49 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12711,7 +12761,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 234.95 71.1199 90)
+			(at 234.95 73.6599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12722,7 +12772,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 231.14 71.12 0)
+			(at 231.14 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12733,7 +12783,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 231.14 71.12 0)
+			(at 231.14 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12744,7 +12794,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 231.14 71.12 0)
+			(at 231.14 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12760,7 +12810,7 @@
 		(instances
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
-					(reference "#PWR081")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -12778,7 +12828,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db89394a-e8bb-461f-a3a1-cfb927de403d")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR036"
 			(at 66.04 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -12838,7 +12888,7 @@
 		(instances
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
-					(reference "#PWR026")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -12856,7 +12906,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dd8f8c0d-bc20-4c9c-8a0e-d0c0bd64f2db")
-		(property "Reference" "R8"
+		(property "Reference" "R17"
 			(at 72.39 163.8299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12878,7 +12928,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 69.85 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -12920,7 +12970,7 @@
 		(instances
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
-					(reference "R8")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -12938,7 +12988,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e662dc50-5337-4b45-9ddc-0675cfbda29b")
-		(property "Reference" "J4"
+		(property "Reference" "J2"
 			(at 38.1 160.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13002,7 +13052,7 @@
 		(instances
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
-					(reference "J4")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -13020,7 +13070,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ee63ad87-2e43-4e64-af80-00207d48bbea")
-		(property "Reference" "C9"
+		(property "Reference" "C12"
 			(at 39.37 29.2162 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13084,7 +13134,7 @@
 		(instances
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
-					(reference "C9")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -13102,7 +13152,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f2dc1083-46b8-4950-aa91-814126d21e83")
-		(property "Reference" "C12"
+		(property "Reference" "C11"
 			(at 30.48 29.3369 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13166,7 +13216,7 @@
 		(instances
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
-					(reference "C12")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -13184,7 +13234,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f990f2d4-9fef-4e85-9562-29c318b28493")
-		(property "Reference" "J5"
+		(property "Reference" "J4"
 			(at 260.35 48.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13254,7 +13304,7 @@
 		(instances
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
-					(reference "J5")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -13272,7 +13322,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fa0dba36-80bc-4763-b451-57bf4495a15f")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR028"
 			(at 27.94 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -13332,7 +13382,7 @@
 		(instances
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
-					(reference "#PWR027")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -13340,7 +13390,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 222.25 76.2 90)
+		(at 222.25 78.74 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13349,8 +13399,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fc9940d0-de56-4233-98b2-a7ae5394beff")
-		(property "Reference" "R42"
-			(at 222.1865 71.882 90)
+		(property "Reference" "R22"
+			(at 222.1865 74.422 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13360,7 +13410,7 @@
 			)
 		)
 		(property "Value" "220"
-			(at 222.1865 74.422 90)
+			(at 222.1865 76.962 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13369,8 +13419,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
-			(at 222.25 76.2 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 222.25 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13381,7 +13431,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 222.25 76.2 0)
+			(at 222.25 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13392,7 +13442,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 222.25 76.2 0)
+			(at 222.25 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13411,7 +13461,7 @@
 		(instances
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
-					(reference "R42")
+					(reference "R22")
 					(unit 1)
 				)
 			)
