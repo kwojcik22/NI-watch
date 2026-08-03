@@ -12,7 +12,6 @@ NI-watch/
 │   ├── doc/
 │   └── zegarek/
 ├── README.md
-├── README.pdf
 └── software/
     └── TheWatch/
         ├── Core/
