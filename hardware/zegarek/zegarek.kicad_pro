@@ -64,7 +64,7 @@
           "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 1,
-          "remove_islands": 1,
+          "remove_islands": 0,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
         }
@@ -76,7 +76,12 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "clearance|152671395|67486945|47d36cea-1b34-454c-b3a8-af2f07983b41|c1c4ca07-b943-4de3-ae54-bf6b690b5be5",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -261,8 +266,8 @@
           "drill": 0.3
         },
         {
-          "diameter": 1.0,
-          "drill": 0.5
+          "diameter": 3.5,
+          "drill": 3.0
         }
       ],
       "zones_allow_external_fillets": false
@@ -654,6 +659,10 @@
       {
         "netclass": "PWR",
         "pattern": "+BATT"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "+BATT"
       }
     ]
   },
@@ -662,7 +671,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "GBR/",
+      "plot": "gerbers",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -677,7 +686,7 @@
       "method": 0,
       "sort_order": 0
     },
-    "bom_export_filename": "..\\doc\\zegarek.csv",
+    "bom_export_filename": "BOM.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",

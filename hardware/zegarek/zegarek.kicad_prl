@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 6,
+    "active_layer": 3,
     "active_layer_preset": "",
     "auto_track_width": false,
     "hidden_netclasses": [],
@@ -48,7 +48,7 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "ffffffff_ffffffff_ffffffff_ffffffef",
+    "visible_layers": "ffffffff_ffffffff_ffffffff_ffffffff",
     "zone_display_mode": 0
   },
   "git": {
@@ -118,7 +118,9 @@
     "sort_ascending": true,
     "sorting_column": 0
   },
-  "open_jobsets": [],
+  "open_jobsets": [
+    "..\\doc\\Post_prod.kicad_jobset"
+  ],
   "project": {
     "files": []
   },
