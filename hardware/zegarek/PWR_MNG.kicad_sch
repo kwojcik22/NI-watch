@@ -3693,6 +3693,15 @@
 				)
 			)
 		)
+		(property "LCSC" "C2045483"
+			(at 161.29 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fc4c9894-a5aa-42d2-b11e-e0ce5632c956")
 		)
@@ -4017,6 +4026,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C23138"
+			(at 160.02 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -4383,7 +4401,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 134.62 88.138 90)
 			(hide yes)
 			(show_name no)
@@ -4414,6 +4432,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C17924"
+			(at 134.62 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -4576,6 +4603,15 @@
 				)
 			)
 		)
+		(property "LCSC" "C152824"
+			(at 63.5 154.9462 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "66a536d3-7ac5-4937-8d21-5fb552555bd9")
 		)
@@ -4736,6 +4772,15 @@
 				)
 			)
 		)
+		(property "LCSC" "C152824"
+			(at 149.86 153.6762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "66a536d3-7ac5-4937-8d21-5fb552555bda")
 		)
@@ -4816,6 +4861,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C22807"
+			(at 187.96 86.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -4975,6 +5029,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C2873086"
+			(at 113.03 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "8"
@@ -5175,6 +5238,15 @@
 				)
 			)
 		)
+		(property "LCSC" "C54426167"
+			(at 173.99 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "142899d8-b2e7-4047-a80e-1e21af3f69c0")
 		)
@@ -5335,6 +5407,15 @@
 				)
 			)
 		)
+		(property "LCSC" "C2074140"
+			(at 187.96 95.2499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c5320573-e995-4cc5-9413-259ed09aa82f")
 		)
@@ -5462,7 +5543,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Horizontal_TabUp"
 			(at 170.18 95.885 0)
 			(hide yes)
 			(show_name no)
@@ -5496,6 +5577,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C358408"
+			(at 171.45 92.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5661,6 +5751,15 @@
 				)
 			)
 		)
+		(property "LCSC" "C152824"
+			(at 83.82 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dd4f5d04-388e-49df-9100-cb099878614e")
 		)
@@ -5708,7 +5807,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 134.62 73.152 90)
 			(hide yes)
 			(show_name no)
@@ -6057,6 +6156,15 @@
 				)
 			)
 		)
+		(property "LCSC" "C49326757"
+			(at 96.52 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1a06e16d-6b9c-42be-b755-328eb6c6cf21")
 		)
@@ -6104,7 +6212,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Horizontal_TabUp"
 			(at 134.62 145.415 0)
 			(hide yes)
 			(show_name no)
@@ -6136,6 +6244,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C192854"
+			(at 134.62 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "3"
@@ -6223,6 +6340,15 @@
 				)
 			)
 		)
+		(property "LCSC" "C274377"
+			(at 33.02 154.9462 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "66a536d3-7ac5-4937-8d21-5fb552555bdb")
 		)
@@ -6303,6 +6429,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C274377"
+			(at 119.38 153.6762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
