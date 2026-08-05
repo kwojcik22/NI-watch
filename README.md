@@ -11,6 +11,17 @@ NI-watch/
 ├── hardware/
 │   ├── doc/
 │   └── zegarek/
+│       ├── fp-lib-table
+│       ├── jlcpcb/
+│       │   └── production_files/
+│       ├── Library.pretty/
+│       ├── MCU.kicad_sch
+│       ├── NIXIE.kicad_sch
+│       ├── PWR_MNG.kicad_sch
+│       ├── zegarek.kicad_pcb
+│       ├── zegarek.kicad_prl
+│       ├── zegarek.kicad_pro
+│       ├── zegarek.kicad_sch
 ├── README.md
 └── software/
     └── TheWatch/
@@ -28,6 +39,17 @@ NI-watch/
 ```
 
 The main firmware path is `software/TheWatch/Core/`, where the primary application, peripheral drivers, and helpers are located.
+
+## Hardware Status
+
+The `hardware/` folder contains the KiCad board project and the JLCPCB manufacturing export data for the watch design.
+
+- `hardware/zegarek/zegarek.kicad_pcb` is the PCB layout file.
+- The project includes additional schematic sheets for the MCU and power sections: `MCU.kicad_sch`, `NIXIE.kicad_sch`, and `PWR_MNG.kicad_sch`.
+- `hardware/zegarek/Library.pretty/` contains custom local footprint libraries used by the design.
+- `hardware/zegarek/jlcpcb/` contains fabrication outputs and assembly data exported for JLCPCB.
+  - `hardware/zegarek/jlcpcb/production_files/gerber.zip` contains the generated Gerber files for board manufacturing.
+  - `hardware/zegarek/jlcpcb/production_files/` contains the exported BOM and CPL files for assembly.
 
 ## Features
 
