@@ -100,7 +100,7 @@
         "rotation_x": 0.0,
         "rotation_y": 0.0,
         "rotation_z": 0.0,
-        "side": "top",
+        "side": "bottom",
         "use_board_stackup_colors": true,
         "variant": "",
         "width": 1920,

@@ -2,6 +2,14 @@
 
 NI-watch is an embedded watch project based on the STM32F0 MCU family. The firmware is designed for a custom hardware platform with RTC support, button input, LED feedback, alarm management, and UART-based debug logging.
 
+## Post-production Images
+
+  Top and bottom photos exported from the post-production media folder:
+
+  ![Top view](hardware/postprod/media/top.png)
+
+  ![Bottom view](hardware/postprod/media/bottom.png)
+
 ## Project Structure
 
 A compact overview of the main repository layout:
@@ -51,6 +59,18 @@ The `hardware/` folder contains the KiCad board project and the JLCPCB manufactu
   - `hardware/zegarek/jlcpcb/production_files/gerber.zip` contains the generated Gerber files for board manufacturing.
   - `hardware/zegarek/jlcpcb/production_files/` contains the exported BOM and CPL files for assembly.
 
+## MCU Peripherals
+
+The table below lists only the MCU peripherals used by the firmware and their primary roles.
+
+| Peripheral | Usage | Pins / Notes |
+|---|---|---|
+| RTC | Timekeeping, Alarm A | on-chip RTC |
+| GPIO (Buttons) | User input (short/long press) | Blue_debug: `GPIOC13`; USER: `GPIOA/B` |
+| LEDs | debug feedback & heartbeat | `GPIO_LED0/1/2` |
+| UART | Debug logging (logger) | USART (see `usart.c`) |
+| Timers | Heartbeat, alarm buzzer and non-blocking timers | TIMx (system timers) |
+
 ## Features
 
 - 24-hour RTC operation using the on-chip RTC peripheral
@@ -93,4 +113,4 @@ The `hardware/` folder contains the KiCad board project and the JLCPCB manufactu
 
 ## Notes
 
-This README describes the current firmware behavior as implemented in the provided source files. The project is a work in progress and can be extended with additional watch features such as display output, time setting via buttons, battery management, and advanced alarm scheduling.
+This README describes the current firmware behavior as implemented in the provided source files. The project is a work in progress and can be extended with additional watch features such as display output, time setting via buttons
