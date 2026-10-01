@@ -5,728 +5,6 @@
 	(uuid "db2707a3-95c7-484a-89c7-8156accba1b3")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:TestPoint"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 5.08 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Connector:USB_C_Plug_USB2.0"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "P"
-				(at -10.16 19.05 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "USB_C_Plug_USB2.0"
-				(at 12.7 19.05 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Footprint" ""
-				(at 3.81 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
-				(at 3.81 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "USB 2.0-only Type-C Plug connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "usb universal serial bus type-C USB2.0"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "USB*C*Plug*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "USB_C_Plug_USB2.0_0_0"
-				(rectangle
-					(start -0.254 -17.78)
-					(end 0.254 -16.764)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 15.494)
-					(end 9.144 14.986)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 10.414)
-					(end 9.144 9.906)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 7.874)
-					(end 9.144 7.366)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 2.794)
-					(end 9.144 2.286)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.16 -2.286)
-					(end 9.144 -2.794)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "USB_C_Plug_USB2.0_0_1"
-				(rectangle
-					(start -10.16 17.78)
-					(end 10.16 -17.78)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -8.89 -3.81) (xy -8.89 3.81)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -7.62 -3.81)
-					(end -6.35 3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(arc
-					(start -7.62 3.81)
-					(mid -6.985 4.4423)
-					(end -6.35 3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -7.62 3.81)
-					(mid -6.985 4.4423)
-					(end -6.35 3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(arc
-					(start -8.89 3.81)
-					(mid -6.985 5.7067)
-					(end -5.08 3.81)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -5.08 -3.81)
-					(mid -6.985 -5.7067)
-					(end -8.89 -3.81)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -6.35 -3.81)
-					(mid -6.985 -4.4423)
-					(end -7.62 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -6.35 -3.81)
-					(mid -6.985 -4.4423)
-					(end -7.62 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 3.81) (xy -5.08 -3.81)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -2.54 1.143)
-					(radius 0.635)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 4.318) (xy 0 6.858) (xy 1.27 4.318) (xy -1.27 4.318)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.032) (xy 2.54 0.508) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -3.302) (xy -2.54 -0.762) (xy -2.54 0.508)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -5.842) (xy 0 4.318)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 -5.842)
-					(radius 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 1.905 1.778)
-					(end 3.175 3.048)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "USB_C_Plug_USB2.0_1_1"
-				(pin passive line
-					(at 0 -22.86 90)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 15.24 15.24 180)
-					(length 5.08)
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 10.16 180)
-					(length 5.08)
-					(name "CC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 -2.54 180)
-					(length 5.08)
-					(name "D+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 2.54 180)
-					(length 5.08)
-					(name "D-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 15.24 15.24 180)
-					(length 5.08)
-					(hide yes)
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -22.86 90)
-					(length 5.08)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -22.86 90)
-					(length 5.08)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 15.24 15.24 180)
-					(length 5.08)
-					(hide yes)
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 7.62 180)
-					(length 5.08)
-					(name "VCONN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 15.24 15.24 180)
-					(length 5.08)
-					(hide yes)
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -22.86 90)
-					(length 5.08)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 -22.86 90)
-					(length 5.08)
-					(name "SHIELD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "SH"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
 				(offset 1.016)
@@ -2478,397 +1756,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Interface_USB:CH340C"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at -5.08 13.97 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Value" "CH340C"
-				(at 1.27 13.97 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
-				(at -18.542 30.226 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/Jiangsu-Qin-Heng-CH340C_C84681.pdf"
-				(at -6.604 33.274 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "USB serial converter, crystal-less, UART, SOIC-16"
-				(at -1.524 36.068 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "USB UART Serial Converter Interface"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "SOIC*3.9x9.9mm*P1.27mm*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "CH340C_0_1"
-				(rectangle
-					(start -7.62 12.7)
-					(end 7.62 -12.7)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "CH340C_1_1"
-				(pin power_in line
-					(at 0 -15.24 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 10.16 10.16 180)
-					(length 2.54)
-					(name "TXD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 10.16 7.62 180)
-					(length 2.54)
-					(name "RXD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 0 15.24 270)
-					(length 2.54)
-					(name "V3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -10.16 2.54 0)
-					(length 2.54)
-					(name "UD+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -10.16 0 0)
-					(length 2.54)
-					(name "UD-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -7.62 -5.08 0)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -7.62 -7.62 0)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 10.16 2.54 180)
-					(length 2.54)
-					(name "~{CTS}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name "~{DSR}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 10.16 -2.54 180)
-					(length 2.54)
-					(name "~{RI}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 10.16 -5.08 180)
-					(length 2.54)
-					(name "~{DCD}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 10.16 -7.62 180)
-					(length 2.54)
-					(name "~{DTR}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 10.16 -10.16 180)
-					(length 2.54)
-					(name "~{RTS}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 7.62 0)
-					(length 2.54)
-					(name "R232"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 15.24 270)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5272,7 +4159,7 @@
 		(uuid "4ecd4e33-830c-4bd5-bdfe-030c9ec0f929")
 	)
 	(junction
-		(at 102.87 123.19)
+		(at 87.63 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "56615070-cb7d-432b-bbdd-d03b98852015")
@@ -5284,13 +4171,7 @@
 		(uuid "56fe6171-1a9d-4f6e-bf44-ee0727daec1c")
 	)
 	(junction
-		(at 212.09 130.81)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5a6396a0-b52f-4930-b213-15feb60328a4")
-	)
-	(junction
-		(at 143.51 55.88)
+		(at 128.27 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "63750b1c-f3a7-4ea5-994b-9e84fa2e9e20")
@@ -5308,13 +4189,13 @@
 		(uuid "8d4be430-488c-4262-b365-88ee708527af")
 	)
 	(junction
-		(at 102.87 115.57)
+		(at 87.63 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "be5c1353-8719-48b9-97a8-7ec6eb814a82")
 	)
 	(junction
-		(at 142.24 55.88)
+		(at 127 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c057b35e-05e9-4d29-be51-58e94b61e11c")
@@ -5361,40 +4242,8 @@
 		(color 0 0 0 0)
 		(uuid "fe4a8d76-468d-4d7e-9c55-e4950c92b7a8")
 	)
-	(no_connect
-		(at 222.25 128.27)
-		(uuid "0b5edfd1-e1f3-4c88-a7ad-569282e62925")
-	)
-	(no_connect
-		(at 222.25 123.19)
-		(uuid "18796f35-1715-4478-952f-2cb8b12a54c8")
-	)
-	(no_connect
-		(at 252.73 110.49)
-		(uuid "21d497de-fb9a-457c-b6fb-889a78355462")
-	)
-	(no_connect
-		(at 275.59 143.51)
-		(uuid "2268f705-4c98-4aeb-9a8b-feb18dee1a88")
-	)
-	(no_connect
-		(at 222.25 125.73)
-		(uuid "2ddbc4b4-0cb7-4ddd-9398-de6b3905a026")
-	)
-	(no_connect
-		(at 222.25 118.11)
-		(uuid "51470d1b-4f6a-4b65-9084-a3a9af1d9e74")
-	)
-	(no_connect
-		(at 222.25 120.65)
-		(uuid "a0b71a17-b085-4214-a86d-08723ff2572a")
-	)
-	(no_connect
-		(at 252.73 113.03)
-		(uuid "b6df1223-e2e5-4351-945e-e68238b7c9a2")
-	)
 	(bus_entry
-		(at 168.91 111.76)
+		(at 153.67 111.76)
 		(size 2.54 -2.54)
 		(stroke
 			(width 0)
@@ -5403,7 +4252,7 @@
 		(uuid "013d8eb5-16cd-4176-b5e6-099eb26202c9")
 	)
 	(bus_entry
-		(at 170.18 134.62)
+		(at 154.94 134.62)
 		(size 2.54 -2.54)
 		(stroke
 			(width 0)
@@ -5412,7 +4261,7 @@
 		(uuid "10e6f6f4-c75d-48fe-a439-5e4723534261")
 	)
 	(bus_entry
-		(at 170.18 137.16)
+		(at 154.94 137.16)
 		(size 2.54 -2.54)
 		(stroke
 			(width 0)
@@ -5421,7 +4270,7 @@
 		(uuid "28992568-d44c-4ea7-996f-976f3b2d9e8c")
 	)
 	(bus_entry
-		(at 170.18 129.54)
+		(at 154.94 129.54)
 		(size 2.54 -2.54)
 		(stroke
 			(width 0)
@@ -5430,7 +4279,7 @@
 		(uuid "3e0589a5-9b17-46dc-964b-c6e3e9a9beb7")
 	)
 	(bus_entry
-		(at 170.18 132.08)
+		(at 154.94 132.08)
 		(size 2.54 -2.54)
 		(stroke
 			(width 0)
@@ -5439,7 +4288,7 @@
 		(uuid "51e70784-52a6-4a48-97b5-0c79c1fde316")
 	)
 	(bus_entry
-		(at 102.87 88.9)
+		(at 87.63 88.9)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -5448,7 +4297,7 @@
 		(uuid "6a07a12f-3c50-4149-bf17-6ad42b2dc363")
 	)
 	(bus_entry
-		(at 170.18 139.7)
+		(at 154.94 139.7)
 		(size 2.54 -2.54)
 		(stroke
 			(width 0)
@@ -5457,7 +4306,7 @@
 		(uuid "70070239-8c66-4f66-9974-17156d4fbd7e")
 	)
 	(bus_entry
-		(at 170.18 144.78)
+		(at 154.94 144.78)
 		(size 2.54 -2.54)
 		(stroke
 			(width 0)
@@ -5466,7 +4315,7 @@
 		(uuid "95ddb9ee-1f6f-475d-80a0-71052b22db1d")
 	)
 	(bus_entry
-		(at 102.87 83.82)
+		(at 87.63 83.82)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -5475,7 +4324,7 @@
 		(uuid "a34cde50-a3b0-49aa-8e76-ffb055dcff46")
 	)
 	(bus_entry
-		(at 102.87 81.28)
+		(at 87.63 81.28)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -5484,7 +4333,7 @@
 		(uuid "ac37fec2-734f-4798-8628-46c56959d69e")
 	)
 	(bus_entry
-		(at 168.91 106.68)
+		(at 153.67 106.68)
 		(size 2.54 -2.54)
 		(stroke
 			(width 0)
@@ -5493,7 +4342,7 @@
 		(uuid "b0abeadb-16d4-4628-8228-8d3eaee18937")
 	)
 	(bus_entry
-		(at 168.91 114.3)
+		(at 153.67 114.3)
 		(size 2.54 -2.54)
 		(stroke
 			(width 0)
@@ -5502,7 +4351,7 @@
 		(uuid "c3948b92-e6fa-4a33-9fb2-66964521711b")
 	)
 	(bus_entry
-		(at 168.91 109.22)
+		(at 153.67 109.22)
 		(size 2.54 -2.54)
 		(stroke
 			(width 0)
@@ -5511,7 +4360,7 @@
 		(uuid "c3ed5aaa-e833-4747-a9df-3b1c3959eb06")
 	)
 	(bus_entry
-		(at 102.87 86.36)
+		(at 87.63 86.36)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -5520,7 +4369,7 @@
 		(uuid "da572946-1a13-4b91-97d4-10ea96021484")
 	)
 	(bus_entry
-		(at 170.18 142.24)
+		(at 154.94 142.24)
 		(size 2.54 -2.54)
 		(stroke
 			(width 0)
@@ -5529,7 +4378,7 @@
 		(uuid "f06f8437-d29b-4b3a-961b-a2f5283a6373")
 	)
 	(bus_entry
-		(at 170.18 127)
+		(at 154.94 127)
 		(size 2.54 -2.54)
 		(stroke
 			(width 0)
@@ -5549,7 +4398,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 132.08) (xy 170.18 132.08)
+			(xy 144.78 132.08) (xy 154.94 132.08)
 		)
 		(stroke
 			(width 0)
@@ -5559,7 +4408,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 83.82) (xy 124.46 83.82)
+			(xy 90.17 83.82) (xy 109.22 83.82)
 		)
 		(stroke
 			(width 0)
@@ -5579,7 +4428,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 115.57) (xy 102.87 115.57)
+			(xy 93.98 115.57) (xy 87.63 115.57)
 		)
 		(stroke
 			(width 0)
@@ -5599,7 +4448,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 76.2) (xy 186.69 76.2)
+			(xy 144.78 76.2) (xy 168.91 76.2)
 		)
 		(stroke
 			(width 0)
@@ -5609,7 +4458,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 63.5) (xy 160.02 63.5)
+			(xy 160.02 63.5) (xy 144.78 63.5)
 		)
 		(stroke
 			(width 0)
@@ -5619,7 +4468,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 109.22) (xy 168.91 109.22)
+			(xy 144.78 109.22) (xy 153.67 109.22)
 		)
 		(stroke
 			(width 0)
@@ -5629,17 +4478,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 118.11) (xy 245.11 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "226f9c28-ad3f-42bd-a55b-655702aeed05")
-	)
-	(wire
-		(pts
-			(xy 160.02 142.24) (xy 170.18 142.24)
+			(xy 144.78 142.24) (xy 154.94 142.24)
 		)
 		(stroke
 			(width 0)
@@ -5649,7 +4488,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 129.54) (xy 170.18 129.54)
+			(xy 144.78 129.54) (xy 154.94 129.54)
 		)
 		(stroke
 			(width 0)
@@ -5659,7 +4498,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 139.7) (xy 170.18 139.7)
+			(xy 144.78 139.7) (xy 154.94 139.7)
 		)
 		(stroke
 			(width 0)
@@ -5689,7 +4528,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 55.88) (xy 144.78 55.88)
+			(xy 128.27 55.88) (xy 129.54 55.88)
 		)
 		(stroke
 			(width 0)
@@ -5699,7 +4538,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 99.06) (xy 160.02 99.06)
+			(xy 156.21 99.06) (xy 144.78 99.06)
 		)
 		(stroke
 			(width 0)
@@ -5709,17 +4548,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 102.87) (xy 232.41 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "299db1b9-0165-4f43-ab5c-222d4e078f82")
-	)
-	(wire
-		(pts
-			(xy 160.02 86.36) (xy 171.45 86.36)
+			(xy 144.78 86.36) (xy 156.21 86.36)
 		)
 		(stroke
 			(width 0)
@@ -5749,7 +4578,7 @@
 	)
 	(bus
 		(pts
-			(xy 180.34 104.14) (xy 171.45 104.14)
+			(xy 165.1 104.14) (xy 156.21 104.14)
 		)
 		(stroke
 			(width 0)
@@ -5759,7 +4588,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 137.16) (xy 170.18 137.16)
+			(xy 144.78 137.16) (xy 154.94 137.16)
 		)
 		(stroke
 			(width 0)
@@ -5769,7 +4598,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 114.3) (xy 168.91 114.3)
+			(xy 144.78 114.3) (xy 153.67 114.3)
 		)
 		(stroke
 			(width 0)
@@ -5789,17 +4618,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 129.54) (xy 212.09 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3af38fe4-e7b1-42ae-9a2e-5841d155ea59")
-	)
-	(wire
-		(pts
-			(xy 106.68 101.6) (xy 124.46 101.6)
+			(xy 91.44 101.6) (xy 109.22 101.6)
 		)
 		(stroke
 			(width 0)
@@ -5819,7 +4638,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 63.5) (xy 124.46 63.5)
+			(xy 102.87 63.5) (xy 109.22 63.5)
 		)
 		(stroke
 			(width 0)
@@ -5829,7 +4648,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 119.38) (xy 109.22 119.38)
+			(xy 109.22 119.38) (xy 93.98 119.38)
 		)
 		(stroke
 			(width 0)
@@ -5839,7 +4658,7 @@
 	)
 	(bus
 		(pts
-			(xy 102.87 81.28) (xy 102.87 88.9)
+			(xy 87.63 81.28) (xy 87.63 88.9)
 		)
 		(stroke
 			(width 0)
@@ -5859,7 +4678,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 91.44) (xy 124.46 91.44)
+			(xy 90.17 91.44) (xy 109.22 91.44)
 		)
 		(stroke
 			(width 0)
@@ -5869,27 +4688,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 130.81) (xy 222.25 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "516b629d-234b-4b5c-a74d-ea9e7ab5ce0a")
-	)
-	(wire
-		(pts
-			(xy 234.95 105.41) (xy 252.73 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "54408e90-c652-48a2-9b3a-3a71aa2ad3db")
-	)
-	(wire
-		(pts
-			(xy 160.02 121.92) (xy 171.45 121.92)
+			(xy 144.78 121.92) (xy 156.21 121.92)
 		)
 		(stroke
 			(width 0)
@@ -5909,7 +4708,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 78.74) (xy 194.31 78.74)
+			(xy 144.78 78.74) (xy 176.53 78.74)
 		)
 		(stroke
 			(width 0)
@@ -5959,7 +4758,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 55.88) (xy 142.24 55.88)
+			(xy 128.27 55.88) (xy 127 55.88)
 		)
 		(stroke
 			(width 0)
@@ -6029,27 +4828,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 113.03) (xy 222.25 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "787c13a2-107a-4fc8-b6a3-9022da7f3213")
-	)
-	(wire
-		(pts
-			(xy 251.46 118.11) (xy 252.73 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "78d60f3a-320d-4815-be41-514c97230e67")
-	)
-	(wire
-		(pts
-			(xy 144.78 158.75) (xy 144.78 152.4)
+			(xy 129.54 158.75) (xy 129.54 152.4)
 		)
 		(stroke
 			(width 0)
@@ -6059,7 +4838,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 76.2) (xy 231.14 76.2)
+			(xy 199.39 76.2) (xy 213.36 76.2)
 		)
 		(stroke
 			(width 0)
@@ -6099,7 +4878,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 55.88) (xy 142.24 55.88)
+			(xy 124.46 55.88) (xy 127 55.88)
 		)
 		(stroke
 			(width 0)
@@ -6109,7 +4888,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 73.66) (xy 231.14 73.66)
+			(xy 191.77 73.66) (xy 213.36 73.66)
 		)
 		(stroke
 			(width 0)
@@ -6119,27 +4898,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 120.65) (xy 251.46 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a51dbd3-3b41-4b7f-99fa-feb684f321d5")
-	)
-	(wire
-		(pts
-			(xy 209.55 110.49) (xy 222.25 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ecefdf7-36d1-4873-bf14-a99b1a395a8b")
-	)
-	(wire
-		(pts
-			(xy 201.93 78.74) (xy 219.71 78.74)
+			(xy 184.15 78.74) (xy 201.93 78.74)
 		)
 		(stroke
 			(width 0)
@@ -6159,23 +4918,13 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 76.2) (xy 212.09 76.2)
+			(xy 176.53 76.2) (xy 194.31 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "93865472-7b26-4257-9515-7173552705e5")
-	)
-	(wire
-		(pts
-			(xy 245.11 123.19) (xy 252.73 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "99310ea6-8dd0-4ab9-a727-0158f7c40d88")
 	)
 	(wire
 		(pts
@@ -6209,7 +4958,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 73.66) (xy 179.07 73.66)
+			(xy 144.78 73.66) (xy 161.29 73.66)
 		)
 		(stroke
 			(width 0)
@@ -6229,7 +4978,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 73.66) (xy 204.47 73.66)
+			(xy 168.91 73.66) (xy 186.69 73.66)
 		)
 		(stroke
 			(width 0)
@@ -6239,7 +4988,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 134.62) (xy 170.18 134.62)
+			(xy 144.78 134.62) (xy 154.94 134.62)
 		)
 		(stroke
 			(width 0)
@@ -6249,7 +4998,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 101.6) (xy 160.02 101.6)
+			(xy 156.21 101.6) (xy 144.78 101.6)
 		)
 		(stroke
 			(width 0)
@@ -6259,7 +5008,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 66.04) (xy 160.02 66.04)
+			(xy 160.02 66.04) (xy 144.78 66.04)
 		)
 		(stroke
 			(width 0)
@@ -6269,7 +5018,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 88.9) (xy 124.46 88.9)
+			(xy 90.17 88.9) (xy 109.22 88.9)
 		)
 		(stroke
 			(width 0)
@@ -6279,7 +5028,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 111.76) (xy 168.91 111.76)
+			(xy 144.78 111.76) (xy 153.67 111.76)
 		)
 		(stroke
 			(width 0)
@@ -6289,7 +5038,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 121.92) (xy 124.46 121.92)
+			(xy 106.68 121.92) (xy 109.22 121.92)
 		)
 		(stroke
 			(width 0)
@@ -6299,23 +5048,13 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 127) (xy 170.18 127)
+			(xy 144.78 127) (xy 154.94 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b70eef1c-7a4b-49a5-9e62-e1c4027e5f6a")
-	)
-	(wire
-		(pts
-			(xy 251.46 120.65) (xy 251.46 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b789f13c-05f7-459a-bef9-7f1e13df00b7")
 	)
 	(wire
 		(pts
@@ -6329,7 +5068,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 115.57) (xy 102.87 115.57)
+			(xy 80.01 115.57) (xy 87.63 115.57)
 		)
 		(stroke
 			(width 0)
@@ -6339,7 +5078,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 119.38) (xy 109.22 115.57)
+			(xy 93.98 119.38) (xy 93.98 115.57)
 		)
 		(stroke
 			(width 0)
@@ -6349,7 +5088,7 @@
 	)
 	(bus
 		(pts
-			(xy 171.45 104.14) (xy 171.45 111.76)
+			(xy 156.21 104.14) (xy 156.21 111.76)
 		)
 		(stroke
 			(width 0)
@@ -6359,7 +5098,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 96.52) (xy 160.02 96.52)
+			(xy 156.21 96.52) (xy 144.78 96.52)
 		)
 		(stroke
 			(width 0)
@@ -6369,7 +5108,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 121.92) (xy 116.84 121.92)
+			(xy 93.98 121.92) (xy 101.6 121.92)
 		)
 		(stroke
 			(width 0)
@@ -6379,7 +5118,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 106.68) (xy 168.91 106.68)
+			(xy 144.78 106.68) (xy 153.67 106.68)
 		)
 		(stroke
 			(width 0)
@@ -6399,17 +5138,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 130.81) (xy 212.09 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "caba7f3c-5dce-4126-9a38-39e1bc9d808d")
-	)
-	(wire
-		(pts
-			(xy 105.41 86.36) (xy 124.46 86.36)
+			(xy 90.17 86.36) (xy 109.22 86.36)
 		)
 		(stroke
 			(width 0)
@@ -6429,7 +5158,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 144.78) (xy 170.18 144.78)
+			(xy 144.78 144.78) (xy 154.94 144.78)
 		)
 		(stroke
 			(width 0)
@@ -6439,7 +5168,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 123.19) (xy 102.87 123.19)
+			(xy 80.01 123.19) (xy 87.63 123.19)
 		)
 		(stroke
 			(width 0)
@@ -6469,7 +5198,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 123.19) (xy 109.22 121.92)
+			(xy 93.98 123.19) (xy 93.98 121.92)
 		)
 		(stroke
 			(width 0)
@@ -6479,7 +5208,7 @@
 	)
 	(bus
 		(pts
-			(xy 172.72 124.46) (xy 172.72 142.24)
+			(xy 157.48 124.46) (xy 157.48 142.24)
 		)
 		(stroke
 			(width 0)
@@ -6489,17 +5218,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 118.11) (xy 245.11 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e2c1c06e-d91d-4d76-a3bc-482ba6d19a79")
-	)
-	(wire
-		(pts
-			(xy 147.32 49.53) (xy 147.32 55.88)
+			(xy 132.08 49.53) (xy 132.08 55.88)
 		)
 		(stroke
 			(width 0)
@@ -6529,7 +5248,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 73.66) (xy 124.46 73.66)
+			(xy 102.87 73.66) (xy 109.22 73.66)
 		)
 		(stroke
 			(width 0)
@@ -6549,7 +5268,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 123.19) (xy 109.22 123.19)
+			(xy 87.63 123.19) (xy 93.98 123.19)
 		)
 		(stroke
 			(width 0)
@@ -6579,7 +5298,7 @@
 	)
 	(bus
 		(pts
-			(xy 172.72 124.46) (xy 177.8 124.46)
+			(xy 157.48 124.46) (xy 162.56 124.46)
 		)
 		(stroke
 			(width 0)
@@ -6589,7 +5308,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 78.74) (xy 231.14 78.74)
+			(xy 207.01 78.74) (xy 213.36 78.74)
 		)
 		(stroke
 			(width 0)
@@ -6598,7 +5317,7 @@
 		(uuid "f8c3046c-10ad-44a0-b422-509b5e0c95f4")
 	)
 	(label "MH_A"
-		(at 162.56 127 0)
+		(at 147.32 127 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6608,7 +5327,7 @@
 		(uuid "01428a06-5845-4796-b7f9-8615d6052f30")
 	)
 	(label "MH_C"
-		(at 162.56 132.08 0)
+		(at 147.32 132.08 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6618,7 +5337,7 @@
 		(uuid "043ae584-2c4e-4c5b-8937-19172aec38d7")
 	)
 	(label "HL_B"
-		(at 162.56 109.22 0)
+		(at 147.32 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6627,18 +5346,8 @@
 		)
 		(uuid "048ecd88-9ebe-4d17-b176-df9351565713")
 	)
-	(label "D+"
-		(at 245.11 118.11 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0b40be49-6d45-4d39-a7fc-d45c492d1335")
-	)
 	(label "DEBUG_TX"
-		(at 175.26 63.5 180)
+		(at 160.02 63.5 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6647,18 +5356,8 @@
 		)
 		(uuid "0d4d3617-2076-45d4-8d18-b460cc48da35")
 	)
-	(label "D-"
-		(at 247.65 120.65 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0f3afcf1-8e63-4995-a596-678adfefb08b")
-	)
 	(label "MH_B"
-		(at 162.56 129.54 0)
+		(at 147.32 129.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6668,7 +5367,7 @@
 		(uuid "13030d02-ebf2-438e-a6a2-c388948a1fdd")
 	)
 	(label "ML_A"
-		(at 162.56 137.16 0)
+		(at 147.32 137.16 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6688,7 +5387,7 @@
 		(uuid "19ec3a78-2bf1-4b5c-ba8d-de899f819c66")
 	)
 	(label "ML_D"
-		(at 162.56 144.78 0)
+		(at 147.32 144.78 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6698,7 +5397,7 @@
 		(uuid "1df902fe-6784-42ec-933e-fa677415cbbb")
 	)
 	(label "ML_C"
-		(at 162.56 142.24 0)
+		(at 147.32 142.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6708,7 +5407,7 @@
 		(uuid "23fbac71-fbb7-4fde-ba76-a40a9554e842")
 	)
 	(label "HH_C"
-		(at 107.95 88.9 0)
+		(at 92.71 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6717,18 +5416,8 @@
 		)
 		(uuid "4ad22a7b-844b-48e6-a611-891705db43db")
 	)
-	(label "DEBUG_RX"
-		(at 209.55 110.49 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "520da5a4-4e2a-4438-84ec-8a8e4b86d4ca")
-	)
 	(label "TMS"
-		(at 171.45 96.52 180)
+		(at 156.21 96.52 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6739,7 +5428,7 @@
 		(uuid "7df41a27-9eee-4486-8ca7-e06067dc6f34")
 	)
 	(label "HH_A"
-		(at 107.95 83.82 0)
+		(at 92.71 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6749,7 +5438,7 @@
 		(uuid "84b36bac-846d-47c5-8166-9f789486bbb2")
 	)
 	(label "ML_B"
-		(at 162.56 139.7 0)
+		(at 147.32 139.7 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6759,7 +5448,7 @@
 		(uuid "8c0b29fd-6097-4e18-af48-6cdb5e10afc5")
 	)
 	(label "HH_D"
-		(at 107.95 91.44 0)
+		(at 92.71 91.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6769,7 +5458,7 @@
 		(uuid "8efe18ce-98ee-4a95-8141-d1b1b160ce55")
 	)
 	(label "MH_D"
-		(at 162.56 134.62 0)
+		(at 147.32 134.62 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6779,7 +5468,7 @@
 		(uuid "99d92837-a93d-4ea0-961b-7972b8d38f29")
 	)
 	(label "DEBUG_RX"
-		(at 175.26 66.04 180)
+		(at 160.02 66.04 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6810,7 +5499,7 @@
 		(uuid "a8fb17b3-877c-4a6a-b7e5-65a199cc9529")
 	)
 	(label "TCK"
-		(at 171.45 99.06 180)
+		(at 156.21 99.06 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6821,7 +5510,7 @@
 		(uuid "af45725b-51f2-4684-95c0-77802cce090f")
 	)
 	(label "HH_B"
-		(at 107.95 86.36 0)
+		(at 92.71 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6840,16 +5529,6 @@
 		)
 		(uuid "bd93680f-a717-4b82-a05d-96483e7b16f1")
 	)
-	(label "DEBUG_TX"
-		(at 209.55 113.03 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "beaa219c-0139-4d7a-b3dc-1e85a2a561e3")
-	)
 	(label "NRST"
 		(at 63.5 101.6 180)
 		(effects
@@ -6861,7 +5540,7 @@
 		(uuid "cf2f1e68-2356-48d0-ba8e-49551245fa8f")
 	)
 	(label "HL_C"
-		(at 162.56 111.76 0)
+		(at 147.32 111.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6871,7 +5550,7 @@
 		(uuid "e3408912-26ee-4517-83b2-b4c7079cbd91")
 	)
 	(label "BOOT"
-		(at 118.11 73.66 0)
+		(at 102.87 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6892,7 +5571,7 @@
 		(uuid "f2e59961-88e8-4116-bce9-de52a7de811a")
 	)
 	(label "HL_D"
-		(at 162.56 114.3 0)
+		(at 147.32 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6902,7 +5581,7 @@
 		(uuid "f69266f8-48c2-40d1-96ca-35add11b8cd1")
 	)
 	(label "NRST"
-		(at 118.11 63.5 0)
+		(at 102.87 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6912,7 +5591,7 @@
 		(uuid "f7bdb563-f1af-4500-80b2-afe7dd28152b")
 	)
 	(label "HL_A"
-		(at 162.56 106.68 0)
+		(at 147.32 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6923,7 +5602,7 @@
 	)
 	(hierarchical_label "{BCD_BUS}"
 		(shape output)
-		(at 180.34 104.14 0)
+		(at 165.1 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6934,7 +5613,7 @@
 	)
 	(hierarchical_label "{BCD_BUS}"
 		(shape output)
-		(at 177.8 124.46 0)
+		(at 162.56 124.46 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6945,7 +5624,7 @@
 	)
 	(hierarchical_label "BUZZER"
 		(shape input)
-		(at 171.45 101.6 0)
+		(at 156.21 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6956,7 +5635,7 @@
 	)
 	(hierarchical_label "{BCD_BUS}"
 		(shape output)
-		(at 102.87 81.28 180)
+		(at 87.63 81.28 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6967,7 +5646,7 @@
 	)
 	(hierarchical_label "BTNOK"
 		(shape input)
-		(at 171.45 121.92 0)
+		(at 156.21 121.92 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6978,7 +5657,7 @@
 	)
 	(hierarchical_label "BTNUP"
 		(shape input)
-		(at 171.45 86.36 0)
+		(at 156.21 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6989,7 +5668,7 @@
 	)
 	(hierarchical_label "BTNDN"
 		(shape input)
-		(at 106.68 101.6 180)
+		(at 91.44 101.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6997,208 +5676,6 @@
 			(justify right)
 		)
 		(uuid "c0d549aa-69a2-42d8-8161-21ecab501088")
-	)
-	(symbol
-		(lib_id "Connector:USB_C_Plug_USB2.0")
-		(at 267.97 120.65 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "03d30ef0-b03b-43f7-9b2b-3b173b76d91f")
-		(property "Reference" "P1"
-			(at 256.286 96.52 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "USB_C_Plug_USB2.0"
-			(at 256.286 99.06 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_Amphenol_12401948E412A"
-			(at 264.16 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
-			(at 264.16 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "USB 2.0-only Type-C Plug connector"
-			(at 267.97 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C53185062"
-			(at 256.286 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "A5"
-			(uuid "7c3f39de-3072-44a5-bc77-aa77d385e991")
-		)
-		(pin "B4"
-			(uuid "0e7cab50-2537-45e5-9193-d125dea36bd4")
-		)
-		(pin "A6"
-			(uuid "5b5297f2-10f6-48d0-9d4d-a27270105a7e")
-		)
-		(pin "A9"
-			(uuid "69b3c584-ad33-433b-a286-ee898625e9f5")
-		)
-		(pin "A12"
-			(uuid "edc14c8d-5475-4b37-a695-f44d7dec9e2c")
-		)
-		(pin "A4"
-			(uuid "04d98d1b-3de9-4c8b-8751-290653301230")
-		)
-		(pin "B9"
-			(uuid "3a128c42-c77c-4222-8f30-826dc8469221")
-		)
-		(pin "B12"
-			(uuid "f6ffeef9-b046-406b-b67f-20336984fc63")
-		)
-		(pin "B1"
-			(uuid "81d42e4a-9013-4d96-867d-0562751792c3")
-		)
-		(pin "A1"
-			(uuid "2fa6a99a-20f8-4984-aed9-547a5d1b55fd")
-		)
-		(pin "A7"
-			(uuid "132c3a59-233e-465a-8972-970e49ac7def")
-		)
-		(pin "B5"
-			(uuid "e286c081-72c6-4a36-bc54-5840bc24f026")
-		)
-		(pin "SH"
-			(uuid "3f02b43f-691b-4e11-b7e1-ffd1167ff94a")
-		)
-		(instances
-			(project "zegarek"
-				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
-					(reference "P1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 203.2 130.81 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "06145083-aa20-4035-87a1-68611c68ade8")
-		(property "Reference" "TP1"
-			(at 198.374 121.92 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "DEBUG RST"
-			(at 198.374 124.46 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D2.60mm_Drill0.9mm_Beaded"
-			(at 208.28 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 208.28 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 203.2 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e7faf34f-3b03-4e0f-83e4-e840e3671da3")
-		)
-		(instances
-			(project "zegarek"
-				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
-					(reference "TP1")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -7270,6 +5747,12 @@
 			(uuid "fa70f03b-e633-49e8-9b10-535f9cce9877")
 		)
 		(instances
+			(project "MCU"
+				(path "/db2707a3-95c7-484a-89c7-8156accba1b3"
+					(reference "#PWR051")
+					(unit 1)
+				)
+			)
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
 					(reference "#PWR051")
@@ -7347,11 +5830,13 @@
 		)
 		(property "LCSC" "C3152147"
 			(at 53.34 93.9799 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -7361,6 +5846,12 @@
 			(uuid "c49f4640-0378-434e-a22c-576f4dd78299")
 		)
 		(instances
+			(project "MCU"
+				(path "/db2707a3-95c7-484a-89c7-8156accba1b3"
+					(reference "R15")
+					(unit 1)
+				)
+			)
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
 					(reference "R15")
@@ -7439,6 +5930,12 @@
 			(uuid "1431d686-a9cf-414d-a495-860b37c8e4f3")
 		)
 		(instances
+			(project "MCU"
+				(path "/db2707a3-95c7-484a-89c7-8156accba1b3"
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
 					(reference "#PWR040")
@@ -7449,7 +5946,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 149.86 55.88 0)
+		(at 134.62 55.88 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7460,7 +5957,7 @@
 		(fields_autoplaced yes)
 		(uuid "1e220605-bc8a-4aee-ae01-e9a3f6c767b2")
 		(property "Reference" "#PWR047"
-			(at 149.86 59.69 0)
+			(at 134.62 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7471,7 +5968,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 149.86 50.8 0)
+			(at 134.62 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7481,7 +5978,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 149.86 55.88 0)
+			(at 134.62 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7492,7 +5989,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 55.88 0)
+			(at 134.62 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7503,7 +6000,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 149.86 55.88 0)
+			(at 134.62 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7517,6 +6014,12 @@
 			(uuid "17711d3f-9f4c-4fc7-a90d-11279fb31cee")
 		)
 		(instances
+			(project "MCU"
+				(path "/db2707a3-95c7-484a-89c7-8156accba1b3"
+					(reference "#PWR047")
+					(unit 1)
+				)
+			)
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
 					(reference "#PWR047")
@@ -7595,6 +6098,12 @@
 			(uuid "fa70f03b-e633-49e8-9b10-535f9cce9878")
 		)
 		(instances
+			(project "MCU"
+				(path "/db2707a3-95c7-484a-89c7-8156accba1b3"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
 					(reference "#PWR033")
@@ -7672,11 +6181,13 @@
 		)
 		(property "LCSC" "C2074140"
 			(at 39.37 105.4099 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7686,6 +6197,12 @@
 			(uuid "196306ae-ed07-4c87-85ac-9a082246ba41")
 		)
 		(instances
+			(project "MCU"
+				(path "/db2707a3-95c7-484a-89c7-8156accba1b3"
+					(reference "R13")
+					(unit 1)
+				)
+			)
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
 					(reference "R13")
@@ -7696,7 +6213,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 119.38 121.92 90)
+		(at 104.14 121.92 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7706,7 +6223,7 @@
 		(dnp no)
 		(uuid "243a735b-cbfd-4f4b-a646-04da505cb832")
 		(property "Reference" "R18"
-			(at 119.38 123.952 90)
+			(at 104.14 123.952 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7716,7 +6233,7 @@
 			)
 		)
 		(property "Value" "220"
-			(at 119.38 126.492 90)
+			(at 104.14 126.492 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7726,7 +6243,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 119.38 121.92 0)
+			(at 104.14 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7737,7 +6254,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 121.92 0)
+			(at 104.14 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7748,7 +6265,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 119.38 121.92 0)
+			(at 104.14 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7759,12 +6276,14 @@
 			)
 		)
 		(property "LCSC" "C54920883"
-			(at 119.38 123.952 0)
+			(at 104.14 123.952 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -7774,6 +6293,12 @@
 			(uuid "de9263ce-f691-47f4-86e4-439fbaee9f23")
 		)
 		(instances
+			(project "MCU"
+				(path "/db2707a3-95c7-484a-89c7-8156accba1b3"
+					(reference "R18")
+					(unit 1)
+				)
+			)
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
 					(reference "R18")
@@ -7784,7 +6309,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 207.01 73.66 90)
+		(at 189.23 73.66 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7794,7 +6319,7 @@
 		(dnp no)
 		(uuid "25f83db7-6b92-4f1c-9078-5c4f1ac501fe")
 		(property "Reference" "R19"
-			(at 206.9465 69.342 90)
+			(at 189.1665 69.342 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7804,7 +6329,7 @@
 			)
 		)
 		(property "Value" "220"
-			(at 206.9465 71.882 90)
+			(at 189.1665 71.882 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7814,7 +6339,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 207.01 73.66 0)
+			(at 189.23 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7825,7 +6350,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 207.01 73.66 0)
+			(at 189.23 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7836,7 +6361,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 207.01 73.66 0)
+			(at 189.23 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7847,12 +6372,14 @@
 			)
 		)
 		(property "LCSC" "C54920883"
-			(at 206.9465 69.342 0)
+			(at 189.1665 69.342 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -7862,6 +6389,12 @@
 			(uuid "07a00356-45d5-40e1-a182-f6e458bda35f")
 		)
 		(instances
+			(project "MCU"
+				(path "/db2707a3-95c7-484a-89c7-8156accba1b3"
+					(reference "R19")
+					(unit 1)
+				)
+			)
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
 					(reference "R19")
@@ -7872,7 +6405,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 142.24 152.4 0)
+		(at 127 152.4 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7883,7 +6416,7 @@
 		(fields_autoplaced yes)
 		(uuid "28fc5757-30d8-40aa-8e02-8169daa48529")
 		(property "Reference" "#PWR043"
-			(at 142.24 158.75 0)
+			(at 127 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7894,7 +6427,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 142.24 157.48 0)
+			(at 127 157.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7904,7 +6437,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 142.24 152.4 0)
+			(at 127 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7915,7 +6448,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 152.4 0)
+			(at 127 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7926,7 +6459,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 142.24 152.4 0)
+			(at 127 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7940,6 +6473,12 @@
 			(uuid "f01cbce8-2f19-4d32-9dbe-bead8dbd3876")
 		)
 		(instances
+			(project "MCU"
+				(path "/db2707a3-95c7-484a-89c7-8156accba1b3"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
 					(reference "#PWR043")
@@ -8016,11 +6555,13 @@
 		)
 		(property "LCSC" "C15401"
 			(at 55.88 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8030,6 +6571,12 @@
 			(uuid "40a1f778-e2ba-4b8a-ad6f-68182b659eb3")
 		)
 		(instances
+			(project "MCU"
+				(path "/db2707a3-95c7-484a-89c7-8156accba1b3"
+					(reference "R16")
+					(unit 1)
+				)
+			)
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
 					(reference "R16")
@@ -8108,6 +6655,12 @@
 			(uuid "dcfde63d-80f1-4a48-85da-67bc2e4d4f67")
 		)
 		(instances
+			(project "MCU"
+				(path "/db2707a3-95c7-484a-89c7-8156accba1b3"
+					(reference "#PWR054")
+					(unit 1)
+				)
+			)
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
 					(reference "#PWR054")
@@ -8186,6 +6739,12 @@
 			(uuid "fa70f03b-e633-49e8-9b10-535f9cce9879")
 		)
 		(instances
+			(project "MCU"
+				(path "/db2707a3-95c7-484a-89c7-8156accba1b3"
+					(reference "#PWR055")
+					(unit 1)
+				)
+			)
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
 					(reference "#PWR055")
@@ -8263,11 +6822,13 @@
 		)
 		(property "LCSC" "C152824"
 			(at 78.74 29.2162 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -8277,6 +6838,12 @@
 			(uuid "af1484a5-dc32-41c3-9686-4d46abce1321")
 		)
 		(instances
+			(project "MCU"
+				(path "/db2707a3-95c7-484a-89c7-8156accba1b3"
+					(reference "C16")
+					(unit 1)
+				)
+			)
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
 					(reference "C16")
@@ -8287,7 +6854,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 190.5 76.2 180)
+		(at 172.72 76.2 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8297,7 +6864,7 @@
 		(dnp no)
 		(uuid "3c28a830-4a1e-4b45-a92f-a74564a4c5e3")
 		(property "Reference" "D3"
-			(at 192.024 69.342 0)
+			(at 174.244 69.342 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8307,7 +6874,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 192.024 71.882 0)
+			(at 174.244 71.882 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8317,7 +6884,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 190.5 76.2 0)
+			(at 172.72 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8328,7 +6895,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 76.2 0)
+			(at 172.72 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8339,7 +6906,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 190.5 76.2 0)
+			(at 172.72 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8350,7 +6917,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 190.5 76.2 0)
+			(at 172.72 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8361,12 +6928,14 @@
 			)
 		)
 		(property "LCSC" "C2286"
-			(at 192.024 69.342 0)
+			(at 174.244 69.342 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8376,6 +6945,12 @@
 			(uuid "95c84f57-b177-47db-92e0-ee7f25986aca")
 		)
 		(instances
+			(project "MCU"
+				(path "/db2707a3-95c7-484a-89c7-8156accba1b3"
+					(reference "D3")
+					(unit 1)
+				)
+			)
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
 					(reference "D3")
@@ -8453,11 +7028,13 @@
 		)
 		(property "LCSC" "C152824"
 			(at 196.85 29.2099 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -8467,6 +7044,12 @@
 			(uuid "3f61084a-968b-4d99-bc44-a137396fc1fa")
 		)
 		(instances
+			(project "MCU"
+				(path "/db2707a3-95c7-484a-89c7-8156accba1b3"
+					(reference "C22")
+					(unit 1)
+				)
+			)
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
 					(reference "C22")
@@ -8544,11 +7127,13 @@
 		)
 		(property "LCSC" "C15401"
 			(at 49.53 154.9399 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8558,6 +7143,12 @@
 			(uuid "40a1f778-e2ba-4b8a-ad6f-68182b659eb4")
 		)
 		(instances
+			(project "MCU"
+				(path "/db2707a3-95c7-484a-89c7-8156accba1b3"
+					(reference "R14")
+					(unit 1)
+				)
+			)
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
 					(reference "R14")
@@ -8568,7 +7159,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 198.12 78.74 180)
+		(at 180.34 78.74 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8578,7 +7169,7 @@
 		(dnp no)
 		(uuid "444248c7-c824-4eba-ba7e-35e9287ba56d")
 		(property "Reference" "D4"
-			(at 199.644 71.882 0)
+			(at 181.864 71.882 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8588,7 +7179,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 199.644 74.422 0)
+			(at 181.864 74.422 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8598,7 +7189,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 198.12 78.74 0)
+			(at 180.34 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8609,7 +7200,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 78.74 0)
+			(at 180.34 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8620,7 +7211,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 198.12 78.74 0)
+			(at 180.34 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8631,7 +7222,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 198.12 78.74 0)
+			(at 180.34 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8642,12 +7233,14 @@
 			)
 		)
 		(property "LCSC" "C2288"
-			(at 199.644 71.882 0)
+			(at 181.864 71.882 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8657,6 +7250,12 @@
 			(uuid "95c84f57-b177-47db-92e0-ee7f25986acb")
 		)
 		(instances
+			(project "MCU"
+				(path "/db2707a3-95c7-484a-89c7-8156accba1b3"
+					(reference "D4")
+					(unit 1)
+				)
+			)
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
 					(reference "D4")
@@ -8667,7 +7266,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 143.51 55.88 0)
+		(at 128.27 55.88 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8678,7 +7277,7 @@
 		(fields_autoplaced yes)
 		(uuid "47062806-b2b5-4444-8f63-f322e116da55")
 		(property "Reference" "#PWR044"
-			(at 143.51 59.69 0)
+			(at 128.27 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8689,7 +7288,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 143.51 50.8 0)
+			(at 128.27 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8699,7 +7298,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 143.51 55.88 0)
+			(at 128.27 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8710,7 +7309,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 143.51 55.88 0)
+			(at 128.27 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8721,7 +7320,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 143.51 55.88 0)
+			(at 128.27 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8735,6 +7334,12 @@
 			(uuid "7e28e199-f074-46bc-9198-cb9d6abd0070")
 		)
 		(instances
+			(project "MCU"
+				(path "/db2707a3-95c7-484a-89c7-8156accba1b3"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
 					(reference "#PWR044")
@@ -8812,11 +7417,13 @@
 		)
 		(property "LCSC" "C152824"
 			(at 184.15 29.2099 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -8826,6 +7433,12 @@
 			(uuid "3f61084a-968b-4d99-bc44-a137396fc1fb")
 		)
 		(instances
+			(project "MCU"
+				(path "/db2707a3-95c7-484a-89c7-8156accba1b3"
+					(reference "C21")
+					(unit 1)
+				)
+			)
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
 					(reference "C21")
@@ -8904,6 +7517,12 @@
 			(uuid "1256b441-835e-40df-9249-64105c5a629f")
 		)
 		(instances
+			(project "MCU"
+				(path "/db2707a3-95c7-484a-89c7-8156accba1b3"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
 					(reference "#PWR034")
@@ -8982,6 +7601,12 @@
 			(uuid "1a81a94e-3bdf-4b3a-9552-c39c3881ea52")
 		)
 		(instances
+			(project "MCU"
+				(path "/db2707a3-95c7-484a-89c7-8156accba1b3"
+					(reference "#PWR064")
+					(unit 1)
+				)
+			)
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
 					(reference "#PWR064")
@@ -8992,7 +7617,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 102.87 113.03 0)
+		(at 87.63 113.03 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9003,7 +7628,7 @@
 		(fields_autoplaced yes)
 		(uuid "5773e483-05e8-42ab-bb01-389788477068")
 		(property "Reference" "C17"
-			(at 105.41 111.7662 0)
+			(at 90.17 111.7662 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9014,7 +7639,7 @@
 			)
 		)
 		(property "Value" "4.3p"
-			(at 105.41 114.3062 0)
+			(at 90.17 114.3062 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9025,7 +7650,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 102.87 113.03 0)
+			(at 87.63 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9036,7 +7661,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.87 113.03 0)
+			(at 87.63 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9047,7 +7672,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 102.87 113.03 0)
+			(at 87.63 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9058,12 +7683,14 @@
 			)
 		)
 		(property "LCSC" "C424850"
-			(at 105.41 111.7662 0)
+			(at 90.17 111.7662 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9073,6 +7700,12 @@
 			(uuid "07a610aa-8f7e-43ac-b7ed-a5095c22f2f1")
 		)
 		(instances
+			(project "MCU"
+				(path "/db2707a3-95c7-484a-89c7-8156accba1b3"
+					(reference "C17")
+					(unit 1)
+				)
+			)
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
 					(reference "C17")
@@ -9148,11 +7781,13 @@
 		)
 		(property "LCSC" "C76892"
 			(at 52.0192 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9162,6 +7797,12 @@
 			(uuid "ef2a02c1-a349-4428-ba39-1fd60dca0e01")
 		)
 		(instances
+			(project "MCU"
+				(path "/db2707a3-95c7-484a-89c7-8156accba1b3"
+					(reference "FB1")
+					(unit 1)
+				)
+			)
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
 					(reference "FB1")
@@ -9240,6 +7881,12 @@
 			(uuid "dcfde63d-80f1-4a48-85da-67bc2e4d4f68")
 		)
 		(instances
+			(project "MCU"
+				(path "/db2707a3-95c7-484a-89c7-8156accba1b3"
+					(reference "#PWR052")
+					(unit 1)
+				)
+			)
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
 					(reference "#PWR052")
@@ -9318,6 +7965,12 @@
 			(uuid "fa70f03b-e633-49e8-9b10-535f9cce987a")
 		)
 		(instances
+			(project "MCU"
+				(path "/db2707a3-95c7-484a-89c7-8156accba1b3"
+					(reference "#PWR049")
+					(unit 1)
+				)
+			)
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
 					(reference "#PWR049")
@@ -9396,6 +8049,12 @@
 			(uuid "1256b441-835e-40df-9249-64105c5a62a0")
 		)
 		(instances
+			(project "MCU"
+				(path "/db2707a3-95c7-484a-89c7-8156accba1b3"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
 					(reference "#PWR037")
@@ -9474,6 +8133,12 @@
 			(uuid "ed87d3a9-9929-406f-bc00-7075cf8c90b3")
 		)
 		(instances
+			(project "MCU"
+				(path "/db2707a3-95c7-484a-89c7-8156accba1b3"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
 					(reference "#PWR031")
@@ -9552,6 +8217,12 @@
 			(uuid "fb2f9dbc-295c-4669-9474-5e0b010f9c92")
 		)
 		(instances
+			(project "MCU"
+				(path "/db2707a3-95c7-484a-89c7-8156accba1b3"
+					(reference "#PWR063")
+					(unit 1)
+				)
+			)
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
 					(reference "#PWR063")
@@ -9562,7 +8233,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 231.14 76.2 90)
+		(at 213.36 76.2 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9573,7 +8244,7 @@
 		(fields_autoplaced yes)
 		(uuid "6ac34ea4-f8f6-4e43-8518-57e949e8322d")
 		(property "Reference" "#PWR059"
-			(at 237.49 76.2 0)
+			(at 219.71 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9584,7 +8255,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 234.95 76.1999 90)
+			(at 217.17 76.1999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9595,7 +8266,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 231.14 76.2 0)
+			(at 213.36 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9606,7 +8277,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 231.14 76.2 0)
+			(at 213.36 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9617,7 +8288,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 231.14 76.2 0)
+			(at 213.36 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9631,6 +8302,12 @@
 			(uuid "f4e2024a-5ee9-4e5d-9805-be8ba7117682")
 		)
 		(instances
+			(project "MCU"
+				(path "/db2707a3-95c7-484a-89c7-8156accba1b3"
+					(reference "#PWR059")
+					(unit 1)
+				)
+			)
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
 					(reference "#PWR059")
@@ -9640,221 +8317,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 212.09 124.46 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6ae0352b-75e7-46e2-afba-54edbd3d1c86")
-		(property "Reference" "#PWR056"
-			(at 212.09 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 212.09 119.38 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 212.09 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 212.09 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 212.09 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4f53dd38-ddac-4623-81ef-0e64880190cf")
-		)
-		(instances
-			(project "zegarek"
-				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
-					(reference "#PWR056")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Interface_USB:CH340C")
-		(at 232.41 120.65 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6f846cc8-b07c-40d5-913c-16e9753e3742")
-		(property "Reference" "U5"
-			(at 235.5281 135.89 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "CH340C"
-			(at 235.5281 138.43 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
-			(at 250.952 90.424 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/Jiangsu-Qin-Heng-CH340C_C84681.pdf"
-			(at 239.014 87.376 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "USB serial converter, crystal-less, UART, SOIC-16"
-			(at 233.934 84.582 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C84681"
-			(at 235.5281 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "9"
-			(uuid "1962ca26-daa9-48d3-9501-4c534d758dfe")
-		)
-		(pin "16"
-			(uuid "826de44e-42d6-4984-ad42-48451cbc1add")
-		)
-		(pin "6"
-			(uuid "790e9827-0c0e-4b80-bcb2-2d48572df592")
-		)
-		(pin "5"
-			(uuid "eedd8b90-c4b1-4171-a75e-0bef04e8dbc1")
-		)
-		(pin "1"
-			(uuid "3a3035b4-1618-4e37-a6d5-dafb6657a60f")
-		)
-		(pin "7"
-			(uuid "0259d86f-0e98-4bc9-9a27-d20058f2e1f8")
-		)
-		(pin "12"
-			(uuid "a3309ea0-dcb9-4928-b018-c4bd7532b72a")
-		)
-		(pin "13"
-			(uuid "d6de8ac4-e0ec-46b6-9828-05e5b9eab139")
-		)
-		(pin "2"
-			(uuid "bec85d1b-e6c2-4c5d-847f-9009fcd58e40")
-		)
-		(pin "4"
-			(uuid "ea64d6f4-69a9-4ba2-9e12-e0994e85e7fb")
-		)
-		(pin "14"
-			(uuid "9b5bdaf9-0223-44b8-8080-849779c05b5f")
-		)
-		(pin "15"
-			(uuid "9b5f4eeb-e6cc-4c52-95fd-cb9dd74908bf")
-		)
-		(pin "11"
-			(uuid "db8a140a-ccfe-4629-9817-744acd3d9091")
-		)
-		(pin "8"
-			(uuid "a7fae045-4337-4e05-b91d-74996c4f139d")
-		)
-		(pin "3"
-			(uuid "3b3d4913-ff78-4d2d-85f9-354d3a9d76eb")
-		)
-		(pin "10"
-			(uuid "a858d0d5-5196-4a0a-b045-33598792bafe")
-		)
-		(instances
-			(project "zegarek"
-				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
-					(reference "U5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+BATT")
-		(at 137.16 55.88 0)
+		(at 121.92 55.88 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9865,7 +8329,7 @@
 		(fields_autoplaced yes)
 		(uuid "741eefe9-229b-43e9-83ac-8593fd7310e9")
 		(property "Reference" "#PWR042"
-			(at 137.16 59.69 0)
+			(at 121.92 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9876,7 +8340,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 137.16 50.8 0)
+			(at 121.92 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9886,7 +8350,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 137.16 55.88 0)
+			(at 121.92 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9897,7 +8361,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 55.88 0)
+			(at 121.92 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9908,7 +8372,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 137.16 55.88 0)
+			(at 121.92 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9922,6 +8386,12 @@
 			(uuid "e534d49c-7ca1-47e2-a8d9-84be171b02e6")
 		)
 		(instances
+			(project "MCU"
+				(path "/db2707a3-95c7-484a-89c7-8156accba1b3"
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
 					(reference "#PWR042")
@@ -9999,11 +8469,13 @@
 		)
 		(property "LCSC" "C152824"
 			(at 171.45 29.2099 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -10013,6 +8485,12 @@
 			(uuid "3f61084a-968b-4d99-bc44-a137396fc1fc")
 		)
 		(instances
+			(project "MCU"
+				(path "/db2707a3-95c7-484a-89c7-8156accba1b3"
+					(reference "C20")
+					(unit 1)
+				)
+			)
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
 					(reference "C20")
@@ -10093,6 +8571,12 @@
 			(uuid "6412459c-717c-4bb7-83a6-f16f98d6d6d7")
 		)
 		(instances
+			(project "MCU"
+				(path "/db2707a3-95c7-484a-89c7-8156accba1b3"
+					(reference "JP1")
+					(unit 1)
+				)
+			)
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
 					(reference "JP1")
@@ -10103,7 +8587,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 182.88 73.66 180)
+		(at 165.1 73.66 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10113,7 +8597,7 @@
 		(dnp no)
 		(uuid "7fcc28ab-a05c-4557-a525-419c4cb5c212")
 		(property "Reference" "D2"
-			(at 184.404 66.802 0)
+			(at 166.624 66.802 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10123,7 +8607,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 184.404 69.342 0)
+			(at 166.624 69.342 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10133,7 +8617,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 182.88 73.66 0)
+			(at 165.1 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10144,7 +8628,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 73.66 0)
+			(at 165.1 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10155,7 +8639,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 182.88 73.66 0)
+			(at 165.1 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10166,7 +8650,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 182.88 73.66 0)
+			(at 165.1 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10177,12 +8661,14 @@
 			)
 		)
 		(property "LCSC" "C89811"
-			(at 184.404 66.802 0)
+			(at 166.624 66.802 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10192,6 +8678,12 @@
 			(uuid "95c84f57-b177-47db-92e0-ee7f25986acc")
 		)
 		(instances
+			(project "MCU"
+				(path "/db2707a3-95c7-484a-89c7-8156accba1b3"
+					(reference "D2")
+					(unit 1)
+				)
+			)
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
 					(reference "D2")
@@ -10202,7 +8694,7 @@
 	)
 	(symbol
 		(lib_id "MCU_ST_STM32F0:STM32F091RCTx")
-		(at 142.24 104.14 0)
+		(at 127 104.14 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10213,7 +8705,7 @@
 		(fields_autoplaced yes)
 		(uuid "82963fee-a9ce-4dbc-9370-2569403adefa")
 		(property "Reference" "U4"
-			(at 146.9233 152.4 0)
+			(at 131.6833 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10224,7 +8716,7 @@
 			)
 		)
 		(property "Value" "STM32F091RCTx"
-			(at 146.9233 154.94 0)
+			(at 131.6833 154.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10235,7 +8727,7 @@
 			)
 		)
 		(property "Footprint" "Package_QFP:LQFP-64_10x10mm_P0.5mm"
-			(at 127 149.86 0)
+			(at 111.76 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10247,7 +8739,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32f091rc.pdf"
-			(at 142.24 104.14 0)
+			(at 127 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10258,7 +8750,7 @@
 			)
 		)
 		(property "Description" "STMicroelectronics Arm Cortex-M0 MCU, 256KB flash, 32KB RAM, 48 MHz, 2.0-3.6V, 52 GPIO, LQFP64"
-			(at 142.24 104.14 0)
+			(at 127 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10269,12 +8761,14 @@
 			)
 		)
 		(property "LCSC" "C89056"
-			(at 146.9233 152.4 0)
+			(at 131.6833 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "20"
@@ -10470,6 +8964,12 @@
 			(uuid "186bdca0-6b21-4193-84aa-105a9ba8bc2c")
 		)
 		(instances
+			(project "MCU"
+				(path "/db2707a3-95c7-484a-89c7-8156accba1b3"
+					(reference "U4")
+					(unit 1)
+				)
+			)
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
 					(reference "U4")
@@ -10548,6 +9048,12 @@
 			(uuid "0df9b114-e334-4a31-a56c-baec714a7d49")
 		)
 		(instances
+			(project "MCU"
+				(path "/db2707a3-95c7-484a-89c7-8156accba1b3"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
 					(reference "#PWR030")
@@ -10625,11 +9131,13 @@
 		)
 		(property "LCSC" "C152824"
 			(at 63.5 163.8362 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -10639,6 +9147,12 @@
 			(uuid "f3802ed3-18c6-448c-87e6-c7131a929e15")
 		)
 		(instances
+			(project "MCU"
+				(path "/db2707a3-95c7-484a-89c7-8156accba1b3"
+					(reference "C14")
+					(unit 1)
+				)
+			)
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
 					(reference "C14")
@@ -10716,11 +9230,13 @@
 		)
 		(property "LCSC" "C86471"
 			(at 256.54 154.9399 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10730,6 +9246,12 @@
 			(uuid "7ae13b23-ed44-4c4e-9a08-fe6b93581b0c")
 		)
 		(instances
+			(project "MCU"
+				(path "/db2707a3-95c7-484a-89c7-8156accba1b3"
+					(reference "J3")
+					(unit 1)
+				)
+			)
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
 					(reference "J3")
@@ -10740,7 +9262,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 144.78 158.75 0)
+		(at 129.54 158.75 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10751,7 +9273,7 @@
 		(fields_autoplaced yes)
 		(uuid "86345284-7ca7-46b1-a017-b1865db74193")
 		(property "Reference" "#PWR045"
-			(at 144.78 165.1 0)
+			(at 129.54 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10762,7 +9284,7 @@
 			)
 		)
 		(property "Value" "AGND"
-			(at 144.78 163.83 0)
+			(at 129.54 163.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10772,7 +9294,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 144.78 158.75 0)
+			(at 129.54 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10783,7 +9305,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 158.75 0)
+			(at 129.54 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10794,7 +9316,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 144.78 158.75 0)
+			(at 129.54 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10808,6 +9330,12 @@
 			(uuid "f01cbce8-2f19-4d32-9dbe-bead8dbd3877")
 		)
 		(instances
+			(project "MCU"
+				(path "/db2707a3-95c7-484a-89c7-8156accba1b3"
+					(reference "#PWR045")
+					(unit 1)
+				)
+			)
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
 					(reference "#PWR045")
@@ -10886,6 +9414,12 @@
 			(uuid "fa70f03b-e633-49e8-9b10-535f9cce987b")
 		)
 		(instances
+			(project "MCU"
+				(path "/db2707a3-95c7-484a-89c7-8156accba1b3"
+					(reference "#PWR053")
+					(unit 1)
+				)
+			)
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
 					(reference "#PWR053")
@@ -10896,7 +9430,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 102.87 110.49 180)
+		(at 87.63 110.49 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10907,7 +9441,7 @@
 		(fields_autoplaced yes)
 		(uuid "87811fbf-52fc-4ee9-8a07-1a5f26068fc0")
 		(property "Reference" "#PWR038"
-			(at 102.87 104.14 0)
+			(at 87.63 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10918,7 +9452,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 102.87 105.41 0)
+			(at 87.63 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10928,7 +9462,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 102.87 110.49 0)
+			(at 87.63 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10939,7 +9473,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.87 110.49 0)
+			(at 87.63 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10950,7 +9484,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 102.87 110.49 0)
+			(at 87.63 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10964,6 +9498,12 @@
 			(uuid "c5001bf3-fa29-4ded-b58f-5d089172f433")
 		)
 		(instances
+			(project "MCU"
+				(path "/db2707a3-95c7-484a-89c7-8156accba1b3"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
 					(reference "#PWR038")
@@ -10974,7 +9514,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 102.87 125.73 0)
+		(at 87.63 125.73 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10985,7 +9525,7 @@
 		(fields_autoplaced yes)
 		(uuid "8af4944f-7d0d-4227-aa58-496faaed7079")
 		(property "Reference" "C18"
-			(at 105.41 124.4662 0)
+			(at 90.17 124.4662 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10996,7 +9536,7 @@
 			)
 		)
 		(property "Value" "4.3p"
-			(at 105.41 127.0062 0)
+			(at 90.17 127.0062 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11007,7 +9547,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 102.87 125.73 0)
+			(at 87.63 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11018,7 +9558,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.87 125.73 0)
+			(at 87.63 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11029,7 +9569,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 102.87 125.73 0)
+			(at 87.63 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11040,12 +9580,14 @@
 			)
 		)
 		(property "LCSC" "C424850"
-			(at 105.41 124.4662 0)
+			(at 90.17 124.4662 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11055,6 +9597,12 @@
 			(uuid "07a610aa-8f7e-43ac-b7ed-a5095c22f2f2")
 		)
 		(instances
+			(project "MCU"
+				(path "/db2707a3-95c7-484a-89c7-8156accba1b3"
+					(reference "C18")
+					(unit 1)
+				)
+			)
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
 					(reference "C18")
@@ -11133,6 +9681,12 @@
 			(uuid "dcfde63d-80f1-4a48-85da-67bc2e4d4f69")
 		)
 		(instances
+			(project "MCU"
+				(path "/db2707a3-95c7-484a-89c7-8156accba1b3"
+					(reference "#PWR048")
+					(unit 1)
+				)
+			)
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
 					(reference "#PWR048")
@@ -11143,7 +9697,7 @@
 	)
 	(symbol
 		(lib_id "Device:Crystal")
-		(at 95.25 119.38 270)
+		(at 80.01 119.38 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11154,7 +9708,7 @@
 		(fields_autoplaced yes)
 		(uuid "8f2ad6c9-4959-48e6-9ea9-657afd4d4832")
 		(property "Reference" "Y1"
-			(at 99.06 118.1099 90)
+			(at 83.82 118.1099 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11165,7 +9719,7 @@
 			)
 		)
 		(property "Value" "32.768kHz"
-			(at 99.06 120.6499 90)
+			(at 83.82 120.6499 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11176,7 +9730,7 @@
 			)
 		)
 		(property "Footprint" "Crystal:Crystal_AT310_D3.0mm_L10.0mm_Horizontal"
-			(at 95.25 119.38 0)
+			(at 80.01 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11187,7 +9741,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 119.38 0)
+			(at 80.01 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11198,7 +9752,7 @@
 			)
 		)
 		(property "Description" "Two pin crystal"
-			(at 95.25 119.38 0)
+			(at 80.01 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11209,12 +9763,14 @@
 			)
 		)
 		(property "LCSC" "C2236"
-			(at 99.06 118.1099 0)
+			(at 83.82 118.1099 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -11224,100 +9780,15 @@
 			(uuid "b01e2682-5f7f-4f27-a6f8-d104929b7f8f")
 		)
 		(instances
-			(project "zegarek"
-				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
+			(project "MCU"
+				(path "/db2707a3-95c7-484a-89c7-8156accba1b3"
 					(reference "Y1")
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 212.09 127 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8f6b2334-1927-4657-a9c2-d8edcc47c862")
-		(property "Reference" "R20"
-			(at 214.63 125.7299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4k7"
-			(at 214.63 128.2699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 212.09 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 212.09 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 212.09 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C3152147"
-			(at 214.63 125.7299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4393da5d-616a-4f92-a505-fc7e2c50655e")
-		)
-		(pin "1"
-			(uuid "8de9e1e2-5f14-4ad5-92b1-b2797caa550b")
-		)
-		(instances
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
-					(reference "R20")
+					(reference "Y1")
 					(unit 1)
 				)
 			)
@@ -11392,11 +9863,13 @@
 		)
 		(property "LCSC" "C1590"
 			(at 59.69 104.1399 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11406,6 +9879,12 @@
 			(uuid "301a4b3f-b009-43d6-9270-ec24f78d3957")
 		)
 		(instances
+			(project "MCU"
+				(path "/db2707a3-95c7-484a-89c7-8156accba1b3"
+					(reference "C13")
+					(unit 1)
+				)
+			)
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
 					(reference "C13")
@@ -11484,6 +9963,12 @@
 			(uuid "f9f2a299-3fb4-426c-b61f-89484ced87a1")
 		)
 		(instances
+			(project "MCU"
+				(path "/db2707a3-95c7-484a-89c7-8156accba1b3"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
 					(reference "#PWR035")
@@ -11564,6 +10049,12 @@
 			(uuid "a932b4e6-fe99-4d06-8af2-8da07b0763b1")
 		)
 		(instances
+			(project "MCU"
+				(path "/db2707a3-95c7-484a-89c7-8156accba1b3"
+					(reference "SW4")
+					(unit 1)
+				)
+			)
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
 					(reference "SW4")
@@ -11574,7 +10065,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 102.87 128.27 0)
+		(at 87.63 128.27 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11585,7 +10076,7 @@
 		(fields_autoplaced yes)
 		(uuid "96d44144-ef53-449a-a4c3-ce116b7d8ec2")
 		(property "Reference" "#PWR039"
-			(at 102.87 134.62 0)
+			(at 87.63 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11596,7 +10087,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 102.87 133.35 0)
+			(at 87.63 133.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11606,7 +10097,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 102.87 128.27 0)
+			(at 87.63 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11617,7 +10108,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.87 128.27 0)
+			(at 87.63 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11628,7 +10119,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 102.87 128.27 0)
+			(at 87.63 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11642,6 +10133,12 @@
 			(uuid "c5001bf3-fa29-4ded-b58f-5d089172f434")
 		)
 		(instances
+			(project "MCU"
+				(path "/db2707a3-95c7-484a-89c7-8156accba1b3"
+					(reference "#PWR039")
+					(unit 1)
+				)
+			)
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
 					(reference "#PWR039")
@@ -11720,87 +10217,15 @@
 			(uuid "2bdb8ed1-c774-42bc-994f-0d55a425635a")
 		)
 		(instances
-			(project "zegarek"
-				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
+			(project "MCU"
+				(path "/db2707a3-95c7-484a-89c7-8156accba1b3"
 					(reference "#PWR041")
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 212.09 138.43 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9b584e7d-9375-4d56-9c74-cd5715c234f1")
-		(property "Reference" "#PWR057"
-			(at 212.09 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 212.09 143.51 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 212.09 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 212.09 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 212.09 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9ed25dc9-73a3-4d68-b05a-37ce7cb3a905")
-		)
-		(instances
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
-					(reference "#PWR057")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -11875,11 +10300,13 @@
 		)
 		(property "LCSC" "C152824"
 			(at 209.55 29.2099 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -11889,6 +10316,12 @@
 			(uuid "3f61084a-968b-4d99-bc44-a137396fc1fd")
 		)
 		(instances
+			(project "MCU"
+				(path "/db2707a3-95c7-484a-89c7-8156accba1b3"
+					(reference "C23")
+					(unit 1)
+				)
+			)
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
 					(reference "C23")
@@ -11899,7 +10332,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 214.63 76.2 90)
+		(at 196.85 76.2 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11909,7 +10342,7 @@
 		(dnp no)
 		(uuid "a37a5e15-c171-4132-a7ed-002c712520b8")
 		(property "Reference" "R21"
-			(at 214.5665 71.882 90)
+			(at 196.7865 71.882 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11919,7 +10352,7 @@
 			)
 		)
 		(property "Value" "220"
-			(at 214.5665 74.422 90)
+			(at 196.7865 74.422 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11929,7 +10362,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 214.63 76.2 0)
+			(at 196.85 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11940,7 +10373,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 214.63 76.2 0)
+			(at 196.85 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11951,7 +10384,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 214.63 76.2 0)
+			(at 196.85 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11962,12 +10395,14 @@
 			)
 		)
 		(property "LCSC" "C54920883"
-			(at 214.5665 71.882 0)
+			(at 196.7865 71.882 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11977,6 +10412,12 @@
 			(uuid "07a00356-45d5-40e1-a182-f6e458bda360")
 		)
 		(instances
+			(project "MCU"
+				(path "/db2707a3-95c7-484a-89c7-8156accba1b3"
+					(reference "R21")
+					(unit 1)
+				)
+			)
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
 					(reference "R21")
@@ -12055,6 +10496,12 @@
 			(uuid "cdd2ccb8-f7ec-4406-84f6-be109c1181b6")
 		)
 		(instances
+			(project "MCU"
+				(path "/db2707a3-95c7-484a-89c7-8156accba1b3"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
 					(reference "#PWR029")
@@ -12133,6 +10580,12 @@
 			(uuid "dcfde63d-80f1-4a48-85da-67bc2e4d4f6a")
 		)
 		(instances
+			(project "MCU"
+				(path "/db2707a3-95c7-484a-89c7-8156accba1b3"
+					(reference "#PWR050")
+					(unit 1)
+				)
+			)
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
 					(reference "#PWR050")
@@ -12211,6 +10664,12 @@
 			(uuid "fff2da6c-c85d-4523-93a5-63f23c1136b5")
 		)
 		(instances
+			(project "MCU"
+				(path "/db2707a3-95c7-484a-89c7-8156accba1b3"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
 					(reference "#PWR032")
@@ -12220,86 +10679,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 267.97 143.51 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b0d71fb2-0a9e-479f-81a7-cd98273a6559")
-		(property "Reference" "#PWR065"
-			(at 267.97 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 267.97 148.59 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 267.97 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 267.97 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 267.97 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1330c4d5-58b3-4ca3-8f14-e8c8f47dc2e1")
-		)
-		(instances
-			(project "zegarek"
-				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
-					(reference "#PWR065")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VDDA")
-		(at 147.32 49.53 0)
+		(at 132.08 49.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12310,7 +10691,7 @@
 		(fields_autoplaced yes)
 		(uuid "ba965016-9efc-44e5-a602-cc92da054ef9")
 		(property "Reference" "#PWR046"
-			(at 147.32 53.34 0)
+			(at 132.08 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12321,7 +10702,7 @@
 			)
 		)
 		(property "Value" "VDDA"
-			(at 147.32 44.45 0)
+			(at 132.08 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12331,7 +10712,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 147.32 49.53 0)
+			(at 132.08 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12342,7 +10723,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 49.53 0)
+			(at 132.08 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12353,7 +10734,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDDA\""
-			(at 147.32 49.53 0)
+			(at 132.08 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12367,87 +10748,15 @@
 			(uuid "8e0ba130-62aa-4702-8edf-26d20cf6c018")
 		)
 		(instances
-			(project "zegarek"
-				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
+			(project "MCU"
+				(path "/db2707a3-95c7-484a-89c7-8156accba1b3"
 					(reference "#PWR046")
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 232.41 135.89 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bce2301f-956f-4cde-a736-7e4077d0ae37")
-		(property "Reference" "#PWR062"
-			(at 232.41 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 232.41 140.97 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 232.41 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 232.41 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 232.41 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1330c4d5-58b3-4ca3-8f14-e8c8f47dc2e2")
-		)
-		(instances
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
-					(reference "#PWR062")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -12555,11 +10864,13 @@
 		)
 		(property "LCSC" "C964750"
 			(at 128.27 28.6384 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -12569,6 +10880,12 @@
 			(uuid "3ab8ebe2-c98f-44da-b8e2-9ec263ae68c6")
 		)
 		(instances
+			(project "MCU"
+				(path "/db2707a3-95c7-484a-89c7-8156accba1b3"
+					(reference "BT1")
+					(unit 1)
+				)
+			)
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
 					(reference "BT1")
@@ -12578,99 +10895,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 212.09 134.62 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c2a0771e-5154-4b2c-a839-f03cd740af6e")
-		(property "Reference" "C24"
-			(at 215.9 133.3499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 215.9 135.8899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 213.0552 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 212.09 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 212.09 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C152824"
-			(at 215.9 133.3499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "90388d0d-7af3-4260-abd2-cfd2757cde60")
-		)
-		(pin "2"
-			(uuid "e9f12925-6235-4acc-b770-f69f9fe30f0d")
-		)
-		(instances
-			(project "zegarek"
-				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
-					(reference "C24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 231.14 78.74 90)
+		(at 213.36 78.74 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12681,7 +10907,7 @@
 		(fields_autoplaced yes)
 		(uuid "c8ae21e6-c121-4dd9-b2a3-83b7c1ae959a")
 		(property "Reference" "#PWR060"
-			(at 237.49 78.74 0)
+			(at 219.71 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12692,7 +10918,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 234.95 78.7399 90)
+			(at 217.17 78.7399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12703,7 +10929,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 231.14 78.74 0)
+			(at 213.36 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12714,7 +10940,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 231.14 78.74 0)
+			(at 213.36 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12725,7 +10951,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 231.14 78.74 0)
+			(at 213.36 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12739,87 +10965,15 @@
 			(uuid "f4e2024a-5ee9-4e5d-9805-be8ba7117683")
 		)
 		(instances
-			(project "zegarek"
-				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
+			(project "MCU"
+				(path "/db2707a3-95c7-484a-89c7-8156accba1b3"
 					(reference "#PWR060")
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 232.41 102.87 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d5492253-a222-4c7e-a357-020ac36baa34")
-		(property "Reference" "#PWR061"
-			(at 232.41 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 232.41 97.79 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 232.41 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 232.41 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 232.41 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6c2b51ba-af95-4490-895d-2ec845c1ef01")
-		)
-		(instances
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
-					(reference "#PWR061")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -12894,11 +11048,13 @@
 		)
 		(property "LCSC" "C49326738"
 			(at 68.58 29.3369 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -12908,6 +11064,12 @@
 			(uuid "c319c44f-5d40-43ac-b810-b36e39b7682e")
 		)
 		(instances
+			(project "MCU"
+				(path "/db2707a3-95c7-484a-89c7-8156accba1b3"
+					(reference "C15")
+					(unit 1)
+				)
+			)
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
 					(reference "C15")
@@ -12985,11 +11147,13 @@
 		)
 		(property "LCSC" "C152824"
 			(at 116.84 29.2099 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -12999,6 +11163,12 @@
 			(uuid "6dcaf725-3608-43d5-9312-50b7ec052eb2")
 		)
 		(instances
+			(project "MCU"
+				(path "/db2707a3-95c7-484a-89c7-8156accba1b3"
+					(reference "C19")
+					(unit 1)
+				)
+			)
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
 					(reference "C19")
@@ -13009,7 +11179,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 231.14 73.66 90)
+		(at 213.36 73.66 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13020,7 +11190,7 @@
 		(fields_autoplaced yes)
 		(uuid "db1695fc-8a8a-413d-b499-f2cfac64aa86")
 		(property "Reference" "#PWR058"
-			(at 237.49 73.66 0)
+			(at 219.71 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13031,7 +11201,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 234.95 73.6599 90)
+			(at 217.17 73.6599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13042,7 +11212,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 231.14 73.66 0)
+			(at 213.36 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13053,7 +11223,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 231.14 73.66 0)
+			(at 213.36 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13064,7 +11234,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 231.14 73.66 0)
+			(at 213.36 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13078,6 +11248,12 @@
 			(uuid "f4e2024a-5ee9-4e5d-9805-be8ba7117684")
 		)
 		(instances
+			(project "MCU"
+				(path "/db2707a3-95c7-484a-89c7-8156accba1b3"
+					(reference "#PWR058")
+					(unit 1)
+				)
+			)
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
 					(reference "#PWR058")
@@ -13156,6 +11332,12 @@
 			(uuid "cdd2ccb8-f7ec-4406-84f6-be109c1181b7")
 		)
 		(instances
+			(project "MCU"
+				(path "/db2707a3-95c7-484a-89c7-8156accba1b3"
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
 					(reference "#PWR036")
@@ -13233,11 +11415,13 @@
 		)
 		(property "LCSC" "C23192"
 			(at 72.39 163.8299 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -13247,6 +11431,12 @@
 			(uuid "40a1f778-e2ba-4b8a-ad6f-68182b659eb5")
 		)
 		(instances
+			(project "MCU"
+				(path "/db2707a3-95c7-484a-89c7-8156accba1b3"
+					(reference "R17")
+					(unit 1)
+				)
+			)
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
 					(reference "R17")
@@ -13324,11 +11514,13 @@
 		)
 		(property "LCSC" "C86471"
 			(at 38.1 160.0199 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -13338,6 +11530,12 @@
 			(uuid "b2de23f9-ceaa-42a1-8721-54c21f1b2e30")
 		)
 		(instances
+			(project "MCU"
+				(path "/db2707a3-95c7-484a-89c7-8156accba1b3"
+					(reference "J2")
+					(unit 1)
+				)
+			)
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
 					(reference "J2")
@@ -13415,11 +11613,13 @@
 		)
 		(property "LCSC" "C152824"
 			(at 39.37 29.2162 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -13429,6 +11629,12 @@
 			(uuid "3f61084a-968b-4d99-bc44-a137396fc1fe")
 		)
 		(instances
+			(project "MCU"
+				(path "/db2707a3-95c7-484a-89c7-8156accba1b3"
+					(reference "C12")
+					(unit 1)
+				)
+			)
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
 					(reference "C12")
@@ -13506,11 +11712,13 @@
 		)
 		(property "LCSC" "C49326738"
 			(at 30.48 29.3369 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -13520,6 +11728,12 @@
 			(uuid "c319c44f-5d40-43ac-b810-b36e39b7682f")
 		)
 		(instances
+			(project "MCU"
+				(path "/db2707a3-95c7-484a-89c7-8156accba1b3"
+					(reference "C11")
+					(unit 1)
+				)
+			)
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
 					(reference "C11")
@@ -13597,11 +11811,13 @@
 		)
 		(property "LCSC" "C124378"
 			(at 260.35 48.2599 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -13617,6 +11833,12 @@
 			(uuid "4a39a6d8-df61-4af5-bf7d-864d8b9780e8")
 		)
 		(instances
+			(project "MCU"
+				(path "/db2707a3-95c7-484a-89c7-8156accba1b3"
+					(reference "J4")
+					(unit 1)
+				)
+			)
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
 					(reference "J4")
@@ -13695,6 +11917,12 @@
 			(uuid "0eb74c70-5aef-42e7-ad06-bc70b34891ba")
 		)
 		(instances
+			(project "MCU"
+				(path "/db2707a3-95c7-484a-89c7-8156accba1b3"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
 					(reference "#PWR028")
@@ -13705,7 +11933,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 222.25 78.74 90)
+		(at 204.47 78.74 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13715,7 +11943,7 @@
 		(dnp no)
 		(uuid "fc9940d0-de56-4233-98b2-a7ae5394beff")
 		(property "Reference" "R22"
-			(at 222.1865 74.422 90)
+			(at 204.4065 74.422 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13725,7 +11953,7 @@
 			)
 		)
 		(property "Value" "220"
-			(at 222.1865 76.962 90)
+			(at 204.4065 76.962 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13735,7 +11963,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 222.25 78.74 0)
+			(at 204.47 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13746,7 +11974,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 222.25 78.74 0)
+			(at 204.47 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13757,7 +11985,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 222.25 78.74 0)
+			(at 204.47 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13768,12 +11996,14 @@
 			)
 		)
 		(property "LCSC" "C54920883"
-			(at 222.1865 74.422 0)
+			(at 204.4065 74.422 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -13783,12 +12013,23 @@
 			(uuid "07a00356-45d5-40e1-a182-f6e458bda361")
 		)
 		(instances
+			(project "MCU"
+				(path "/db2707a3-95c7-484a-89c7-8156accba1b3"
+					(reference "R22")
+					(unit 1)
+				)
+			)
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
 					(reference "R22")
 					(unit 1)
 				)
 			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
 		)
 	)
 )

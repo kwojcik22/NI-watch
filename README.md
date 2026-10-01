@@ -66,7 +66,7 @@ The table below lists only the MCU peripherals used by the firmware and their pr
 | Peripheral | Usage | Pins / Notes |
 |---|---|---|
 | RTC | Timekeeping, Alarm A | on-chip RTC |
-| GPIO (Buttons) | User input (short/long press) | Blue_debug: `GPIOC13`; USER: `GPIOA/B` |
+| GPIO (Buttons) | User input (short/long press) | USER: `GPIOA/B` |
 | LEDs | debug feedback & heartbeat | `GPIO_LED0/1/2` |
 | UART | Debug logging (logger) | USART (see `usart.c`) |
 | Timers | Heartbeat, alarm buzzer and non-blocking timers | TIMx (system timers) |
