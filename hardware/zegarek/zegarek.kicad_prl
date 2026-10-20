@@ -44,6 +44,7 @@
       "drawing_sheet",
       "bitmaps",
       "pads",
+      "zones",
       "locked_item_shadows",
       "conflict_shadows",
       "shapes",
@@ -119,7 +120,9 @@
     "sort_ascending": true,
     "sorting_column": 0
   },
-  "open_jobsets": [],
+  "open_jobsets": [
+    "..\\doc\\Post_prod.kicad_jobset"
+  ],
   "project": {
     "files": []
   },

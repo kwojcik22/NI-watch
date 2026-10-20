@@ -5288,6 +5288,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 93.98) (xy 109.22 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4e29a29-2e55-4f81-a9ad-1892d15841d0")
+	)
+	(wire
+		(pts
 			(xy 50.8 91.44) (xy 50.8 92.71)
 		)
 		(stroke
@@ -5654,6 +5664,17 @@
 			(justify left)
 		)
 		(uuid "60548e87-a019-4410-9b78-2d60508fe8e9")
+	)
+	(hierarchical_label "~{OE}"
+		(shape input)
+		(at 99.06 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8d3ff7d9-4d9d-4f05-94e4-ff5b47fe253a")
 	)
 	(hierarchical_label "BTNUP"
 		(shape input)
@@ -8311,6 +8332,86 @@
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
 					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 101.6 93.98 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6dfd7b59-08c3-4943-9217-a8f98d729d04")
+		(property "Reference" "R44"
+			(at 101.6 99.06 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 101.6 96.52 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 101.6 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "de040c84-1e55-4509-b88e-7781a7f08267")
+		)
+		(pin "2"
+			(uuid "c8cec4b9-156c-4406-b4fc-99fc99929843")
+		)
+		(instances
+			(project "zegarek"
+				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/209f222f-184e-41c4-8d66-9f0390d2086f"
+					(reference "R44")
 					(unit 1)
 				)
 			)

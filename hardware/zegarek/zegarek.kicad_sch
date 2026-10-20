@@ -1006,6 +1006,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 68.58) (xy 203.2 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "285a8f3c-ef93-4533-82f5-665464d7015c")
+	)
+	(wire
+		(pts
 			(xy 163.83 120.65) (xy 177.8 120.65)
 		)
 		(stroke
@@ -3313,6 +3323,16 @@
 				(justify right)
 			)
 		)
+		(pin "~{OE}" input
+			(at 152.4 68.58 0)
+			(uuid "6a4808d5-1da5-467a-94e1-59915362ee95")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726"
@@ -3372,6 +3392,16 @@
 		(pin "{BCD_BUS}" input
 			(at 203.2 64.77 180)
 			(uuid "5a5e0bb2-6614-4c39-b476-cda7c6be9667")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{OE}" input
+			(at 203.2 68.58 180)
+			(uuid "669d98d4-2e08-4a1a-8ce3-e54f6a9a738c")
 			(effects
 				(font
 					(size 1.27 1.27)
