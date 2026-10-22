@@ -1,11 +1,12 @@
 Ref,Val,Package,PosX,PosY,Rot,Side
 "C4","0.33u","C_1206_3216Metric_Pad1.33x1.80mm_HandSolder",78.662500,-56.613290,90.000000,bottom
 "C5","100n","C_1206_3216Metric_Pad1.33x1.80mm_HandSolder",86.062500,-53.213290,90.000000,bottom
-"C6","100nF","C_1206_3216Metric_Pad1.33x1.80mm_HandSolder",58.800000,-67.913290,0.000000,bottom
 "C6","100nF","C_1206_3216Metric_Pad1.33x1.80mm_HandSolder",70.000000,-60.013290,-90.000000,bottom
+"C6","100nF","C_1206_3216Metric_Pad1.33x1.80mm_HandSolder",58.800000,-68.100000,0.000000,bottom
 "C7","1nF","C_1206_3216Metric_Pad1.33x1.80mm_HandSolder",58.200000,-80.213290,-90.000000,bottom
-"C8","0.33u","C_1206_3216Metric_Pad1.33x1.80mm_HandSolder",78.500000,-83.813290,-90.000000,bottom
-"C9","100n","C_1206_3216Metric_Pad1.33x1.80mm_HandSolder",86.200001,-86.913290,-90.000000,bottom
+"C8","0.33u","C_1206_3216Metric_Pad1.33x1.80mm_HandSolder",79.200000,-83.813290,-90.000000,bottom
+"C9","100n","C_1206_3216Metric_Pad1.33x1.80mm_HandSolder",86.600000,-86.913290,-90.000000,bottom
+"C24","100u","C_1206_3216Metric_Pad1.33x1.80mm_HandSolder",76.800000,-82.800000,-90.000000,bottom
 "C25","100n","C_1206_3216Metric_Pad1.33x1.80mm_HandSolder",60.500000,-105.587500,90.000000,bottom
 "C26","100n","C_1206_3216Metric_Pad1.33x1.80mm_HandSolder",105.400000,-105.300000,90.000000,bottom
 "C28","100n","C_1206_3216Metric_Pad1.33x1.80mm_HandSolder",83.400000,-105.550000,90.000000,bottom
@@ -13,6 +14,7 @@ Ref,Val,Package,PosX,PosY,Rot,Side
 "C30","100n","C_1206_3216Metric_Pad1.33x1.80mm_HandSolder",106.407500,-78.037500,90.000000,bottom
 "C31","100n","C_1206_3216Metric_Pad1.33x1.80mm_HandSolder",92.000000,-89.300000,180.000000,bottom
 "C32","100n","C_1206_3216Metric_Pad1.33x1.80mm_HandSolder",107.000000,-90.200000,-90.000000,bottom
+"F1","Fuse","Fuse_1812_4532Metric_Pad1.30x3.40mm_HandSolder",61.560000,-63.640000,-90.000000,bottom
 "L1","100uH","L_10.4x10.4_H4.8",69.500000,-76.000000,-90.000000,bottom
 "R8","0R22","R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",64.100000,-68.013290,180.000000,bottom
 "R9","180","R_1206_3216Metric_Pad1.30x1.75mm_HandSolder",62.800000,-73.613290,-90.000000,bottom

@@ -395,6 +395,184 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:C_Polarized_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Polarized_Small"
+				(at 0.254 -2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Polarized capacitor, small symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_Polarized_Small_0_1"
+				(rectangle
+					(start -1.524 0.6858)
+					(end 1.524 0.3048)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.524 -0.3048)
+					(end 1.524 -0.6858)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.524) (xy -0.762 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.27) (xy -1.016 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Polarized_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.8542)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.8542)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C_Small"
 			(pin_numbers
 				(hide yes)
@@ -689,6 +867,158 @@
 				(pin passive line
 					(at 0 -2.54 90)
 					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:Fuse"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "F"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fuse"
+				(at -1.905 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Fuse"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "fuse"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*Fuse*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Fuse_0_1"
+				(rectangle
+					(start -0.762 -2.54)
+					(end 0.762 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Fuse_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
 					(name ""
 						(effects
 							(font
@@ -2761,6 +3091,12 @@
 		(uuid "06db1a01-78fd-42f7-8b05-4e7e1350ee87")
 	)
 	(junction
+		(at 80.01 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "08ac79a9-3789-482b-8f73-6d09d663a813")
+	)
+	(junction
 		(at 163.83 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2837,6 +3173,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cbb2ca44-be78-403f-ac87-07e8d9e8cf78")
+	)
+	(junction
+		(at 80.01 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d1a98b6f-122b-42a9-b855-8cd575557cf7")
 	)
 	(junction
 		(at 142.24 83.82)
@@ -2934,7 +3276,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 38.1) (xy 160.02 36.83)
+			(xy 180.34 38.1) (xy 180.34 36.83)
 		)
 		(stroke
 			(width 0)
@@ -3024,16 +3366,6 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 41.91) (xy 138.43 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4abdc762-e61d-414b-993f-65dd342cfa59")
-	)
-	(wire
-		(pts
 			(xy 111.76 135.89) (xy 111.76 134.62)
 		)
 		(stroke
@@ -3074,7 +3406,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 40.64) (xy 152.4 41.91)
+			(xy 172.72 40.64) (xy 172.72 41.91)
 		)
 		(stroke
 			(width 0)
@@ -3114,6 +3446,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 41.91) (xy 172.72 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "680cd2bd-4d8f-422d-b0bd-107b0564f83d")
+	)
+	(wire
+		(pts
 			(xy 102.87 72.39) (xy 102.87 74.93)
 		)
 		(stroke
@@ -3144,16 +3486,6 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 36.83) (xy 152.4 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c471cc7-c0b9-401b-8047-0dfd58257199")
-	)
-	(wire
-		(pts
 			(xy 81.28 135.89) (xy 81.28 137.16)
 		)
 		(stroke
@@ -3174,6 +3506,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 101.6) (xy 66.04 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82e175bb-40d7-402b-b32f-855b31423985")
+	)
+	(wire
+		(pts
 			(xy 185.42 81.28) (xy 185.42 83.82)
 		)
 		(stroke
@@ -3181,6 +3523,16 @@
 			(type default)
 		)
 		(uuid "839146a3-c480-4fd4-a963-4f88431c0d19")
+	)
+	(wire
+		(pts
+			(xy 158.75 36.83) (xy 172.72 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "998134b4-0550-4506-ae8f-fe21c898c802")
 	)
 	(wire
 		(pts
@@ -3204,7 +3556,27 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 40.64) (xy 160.02 40.64)
+			(xy 66.04 88.9) (xy 66.04 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2efd620-6c13-40ee-b4e2-fa7ded3e7d32")
+	)
+	(wire
+		(pts
+			(xy 138.43 36.83) (xy 151.13 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7db7684-ed80-499c-96c8-a33770eb66df")
+	)
+	(wire
+		(pts
+			(xy 172.72 40.64) (xy 180.34 40.64)
 		)
 		(stroke
 			(width 0)
@@ -3214,13 +3586,23 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 38.1) (xy 160.02 38.1)
+			(xy 172.72 38.1) (xy 180.34 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a97aa9eb-0742-41c2-97fa-26598780a458")
+	)
+	(wire
+		(pts
+			(xy 66.04 83.82) (xy 80.01 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b62389fa-5245-491d-9853-d50608a94b20")
 	)
 	(wire
 		(pts
@@ -3261,6 +3643,16 @@
 			(type default)
 		)
 		(uuid "bc668385-094b-4877-991d-d930687a65d1")
+	)
+	(wire
+		(pts
+			(xy 80.01 101.6) (xy 66.04 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c350d5b8-d87d-455a-b998-ea245d59aa71")
 	)
 	(wire
 		(pts
@@ -3324,7 +3716,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 36.83) (xy 152.4 38.1)
+			(xy 172.72 36.83) (xy 172.72 38.1)
 		)
 		(stroke
 			(width 0)
@@ -3682,7 +4074,7 @@
 				)
 			)
 		)
-		(property "Description" "Inductor"
+		(property "Description" "Inductor >=1,5A"
 			(at 161.29 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -4290,6 +4682,88 @@
 			(project "zegarek"
 				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/7ab84b86-daac-4da7-88e2-9a4f8795c6aa"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_Small")
+		(at 66.04 91.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3e717d21-7ca5-4774-8566-6ec6767527db")
+		(property "Reference" "C24"
+			(at 68.58 89.6238 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100u"
+			(at 68.58 92.1638 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 66.04 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Polarized capacitor, small symbol"
+			(at 66.04 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0646a7f5-9eb5-4107-a7df-c94674f0856b")
+		)
+		(pin "2"
+			(uuid "79674550-7c86-45b4-9d25-73b6dd05c72e")
+		)
+		(instances
+			(project "zegarek"
+				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/7ab84b86-daac-4da7-88e2-9a4f8795c6aa"
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -5280,7 +5754,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 160.02 36.83 0)
+		(at 180.34 36.83 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5291,7 +5765,7 @@
 		(fields_autoplaced yes)
 		(uuid "90fad24a-2c3c-4e8b-a97e-bda28b25da33")
 		(property "Reference" "#PWR023"
-			(at 160.02 40.64 0)
+			(at 180.34 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5302,7 +5776,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 160.02 31.75 0)
+			(at 180.34 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5312,7 +5786,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 160.02 36.83 0)
+			(at 180.34 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5323,7 +5797,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 36.83 0)
+			(at 180.34 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5334,7 +5808,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 160.02 36.83 0)
+			(at 180.34 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6486,8 +6960,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Fuse")
+		(at 154.94 36.83 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ea11bc6c-7e6d-4934-9e50-cabb7948ddb7")
+		(property "Reference" "F1"
+			(at 154.94 30.48 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Fuse"
+			(at 154.94 33.02 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_1812_4532Metric_Pad1.30x3.40mm_HandSolder"
+			(at 154.94 38.608 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/pl/en/details/0zcg0150af2c/smd-polymer-fuses/bel-fuse/"
+			(at 154.94 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 154.94 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4d45b1f2-5131-48a6-b331-d975de455290")
+		)
+		(pin "1"
+			(uuid "c4e3eeed-18e2-4a04-8cba-d3a232036c80")
+		)
+		(instances
+			(project "zegarek"
+				(path "/f4008fb9-ad6b-45c6-9bc0-571e7640a726/7ab84b86-daac-4da7-88e2-9a4f8795c6aa"
+					(reference "F1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 160.02 40.64 0)
+		(at 180.34 40.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6498,7 +7052,7 @@
 		(fields_autoplaced yes)
 		(uuid "fab085af-da98-436d-9b02-817408773a33")
 		(property "Reference" "#PWR024"
-			(at 160.02 46.99 0)
+			(at 180.34 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6509,7 +7063,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 160.02 45.72 0)
+			(at 180.34 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6519,7 +7073,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 160.02 40.64 0)
+			(at 180.34 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6530,7 +7084,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 40.64 0)
+			(at 180.34 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6541,7 +7095,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 160.02 40.64 0)
+			(at 180.34 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
