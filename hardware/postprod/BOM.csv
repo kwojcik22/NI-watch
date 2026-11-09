@@ -38,5 +38,5 @@
 "U2","1","MC34063AD","","","","Package_SO:SOIC-8_3.9x4.9mm_P1.27mm","http://www.onsemi.com/pub_link/Collateral/MC34063A-D.PDF"
 "U3","1","L7805ACV","","","","Package_TO_SOT_THT:TO-220-3_Horizontal_TabUp","http://www.st.com/content/ccc/resource/technical/document/datasheet/c4/0e/7e/2a/be/bc/4c/bd/CD00000546.pdf/files/CD00000546.pdf/jcr:content/translations/en.CD00000546.pdf"
 "U4","1","STM32F091RCTx","","","","Package_QFP:LQFP-64_10x10mm_P0.5mm","https://www.st.com/resource/en/datasheet/stm32f091rc.pdf"
-"U5,U6","2","SN74LVC8T245","","","","Package_SO:SSOP-24_3.9x8.7mm_P0.635mm","https://www.ti.com/lit/ds/symlink/sn74lvc8t245.pdf"
+"U5,U6","2","SN74LVC8T245","","","","Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm","https://www.ti.com/lit/ds/symlink/sn74lvc8t245.pdf"
 "Y1","1","32.768kHz","","","","Crystal:Crystal_AT310_D3.0mm_L10.0mm_Horizontal",""
