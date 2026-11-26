@@ -671,7 +671,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "/gerbers/",
+      "plot": "../postprod/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
